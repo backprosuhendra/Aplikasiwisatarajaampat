@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="500.1dp"
+        android:layout_height="475.26dp"
+        android:layout_marginTop="-150dp"
+        android:background="@drawable/iconlogin"
+        android:outlineSpotShadowColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="276dp"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="masuk"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Email"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/edt_masukanusername"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/butonshape"
+            android:backgroundTint="@color/textfield"
+            android:drawableStart="@drawable/smss"
+            android:drawablePadding="5dp"
+            android:hint="Masukan Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/textisi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Kata sandi"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/edt_masukansandi"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_isifield"
+            android:backgroundTint="@color/textfield"
+            android:drawableStart="@drawable/icongembok"
+            android:drawablePadding="5dp"
+            android:hint="Masukan kata sandi"
+            android:inputType="numberPassword"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/textisi" />
+
+
+        <Button
+            android:id="@+id/btnmasuk"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_button"
+            android:fontFamily="@font/lato_bold"
+            android:text="Masuk"
+            android:textSize="20sp"></Button>
+
+        <TextView
+            android:id="@+id/tvlupapassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Lupa Password"
+            android:textColor="#78B3CF"
+            android:textColorHint="#1992F3"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <LinearLayout
+            android:layout_width="197dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sudah punya akun?" />
+
+            <TextView
+                android:id="@+id/tvmendaftar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:text="Mendaftarr"
+                android:textColor="#78B3CF"
+                android:textColorHint="#1992F3" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
