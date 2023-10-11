@@ -93,7 +93,8 @@
             android:fontFamily="@font/lato_bold"
             android:text="Kode permintaan"
             android:textColor="@color/white"
-            android:textSize="20sp"></Button>
+            android:textSize="20sp"
+            tools:ignore="TouchTargetSizeCheck"></Button>
 
     </LinearLayout>
 

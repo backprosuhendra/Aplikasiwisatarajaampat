@@ -5,19 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".buatkatasandibaru">
-
-
-<!--    <View
-        android:id="@+id/view"
-        android:layout_width="458dp"
-        android:layout_height="74dp"
-        android:background="@drawable/atas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="-6dp"
-        tools:ignore="MissingConstraints"></View>-->
-
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
