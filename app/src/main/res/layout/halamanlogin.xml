@@ -27,17 +27,17 @@
         android:paddingRight="40dp">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:gravity="left"
             android:text="masuk"
             android:textSize="35dp"
             android:textStyle="bold" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:gravity="left"
             android:paddingTop="10dp"
             android:text="Email"
             android:textSize="15dp"
@@ -59,9 +59,9 @@
             android:textColorHint="@color/textisi" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:gravity="left"
             android:paddingTop="10dp"
             android:text="Kata sandi"
             android:textSize="15dp"
