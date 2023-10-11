@@ -62,9 +62,9 @@
 
         <TextView
             android:id="@+id/tvusername"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:gravity="left"
             android:paddingTop="10dp"
             android:text="Kata sandi baru"
             android:textSize="15dp"
@@ -79,7 +79,7 @@
         <EditText
             android:id="@+id/edt_masukanusername"
             android:layout_width="match_parent"
-            android:layout_height="49dp"
+            android:layout_height="45dp"
             android:background="@drawable/bg_isifield"
             android:backgroundTint="@color/textfield"
             android:drawableStart="@drawable/icongembok"
@@ -99,9 +99,9 @@
 
         <TextView
             android:id="@+id/tvkonfirmasikatasandibaru"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:gravity="left"
             android:paddingTop="10dp"
             android:text="Konfirmasi kata sandi"
             android:textSize="15dp"
@@ -116,7 +116,7 @@
         <EditText
             android:id="@+id/edt_konfirmasikatasandibaru"
             android:layout_width="match_parent"
-            android:layout_height="49dp"
+            android:layout_height="45dp"
             android:background="@drawable/bg_isifield"
             android:backgroundTint="@color/textfield"
             android:drawableStart="@drawable/icongembok"
