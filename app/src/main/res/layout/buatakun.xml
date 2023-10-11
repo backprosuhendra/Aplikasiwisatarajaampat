@@ -36,11 +36,11 @@
 
         <TextView
             android:id="@+id/tvusername"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/lato"
-            android:gravity="center"
+            android:gravity="left"
             android:text="Username"
             android:textSize="15dp"
             tools:ignore="TextSizeCheck" />
@@ -63,11 +63,11 @@
 
         <TextView
             android:id="@+id/tvnomortelepon"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/lato"
-            android:gravity="center"
+            android:gravity="left"
             android:paddingTop="0dp"
             android:text="Nomor telepon"
             android:textSize="15dp"
@@ -91,11 +91,11 @@
 
         <TextView
             android:id="@+id/tvemail"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/lato"
-            android:gravity="center"
+            android:gravity="left"
             android:paddingTop="0dp"
             android:text="Email"
             android:textSize="15dp"
@@ -118,12 +118,11 @@
 
         <TextView
             android:id="@+id/tvkatasandi"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/lato"
-            android:gravity="center"
-            android:paddingTop="0dp"
+            android:gravity="left"
             android:text="Kata sandi"
             android:textSize="15dp"
             tools:ignore="TextSizeCheck" />
@@ -195,7 +194,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
                 android:fontFamily="@font/lato"
                 android:text="Sudah punya akun?"
                 android:textSize="15dp"
@@ -203,9 +201,8 @@
 
             <TextView
                 android:id="@+id/tvmasuk"
-                android:layout_width="wrap_content"
+                android:layout_width="55dp"
                 android:layout_height="20dp"
-                android:layout_gravity="center"
                 android:fontFamily="@font/lato"
                 android:text="Masuk"
                 android:textColor="@color/biru"

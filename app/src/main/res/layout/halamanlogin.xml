@@ -119,10 +119,10 @@
 
             <TextView
                 android:id="@+id/tvmendaftar"
-                android:layout_width="match_parent"
+                android:layout_width="90dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
-                android:text="Mendaftarr"
+                android:text="Mendaftar"
                 android:textColor="#78B3CF"
                 android:textColorHint="#1992F3" />
         </LinearLayout>

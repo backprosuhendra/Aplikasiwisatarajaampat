@@ -40,7 +40,7 @@
 
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Lupa kata sandi"
             android:textColor="@color/black"
@@ -54,7 +54,7 @@
             app:layout_constraintVertical_bias="0.237" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="72dp"
             android:layout_marginTop="10dp"
             android:text="Masukkan email atau telepon Anda, kami akan mengirimkan kode verifikasi untuk mengatur ulang kata sandi Anda."
@@ -71,7 +71,6 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="4dp"
             android:background="@drawable/bg_isifield"
             android:backgroundTint="@color/textfield"
             android:drawableStart="@drawable/iconpesa"
@@ -88,7 +87,7 @@
         <Button
             android:id="@+id/btnkodepermintaan"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="45dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/bg_button"
             android:fontFamily="@font/lato_bold"

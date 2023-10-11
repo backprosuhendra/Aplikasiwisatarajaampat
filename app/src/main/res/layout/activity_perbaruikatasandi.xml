@@ -36,11 +36,11 @@
         app:layout_constraintVertical_bias="0.223">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/lato"
-            android:gravity="center"
+            android:gravity="left"
             android:paddingTop="0dp"
             android:text="Buat kata sandi baru"
             android:textColor="@color/black"
@@ -61,11 +61,11 @@
 
         <TextView
             android:id="@+id/tvusernamelama"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/lato"
-            android:gravity="center"
+            android:gravity="left"
             android:paddingTop="0dp"
             android:text="Username"
             android:textSize="15dp"
@@ -74,7 +74,7 @@
         <EditText
             android:id="@+id/edt_masukanusername"
             android:layout_width="match_parent"
-            android:layout_height="46dp"
+            android:layout_height="45dp"
             android:background="@drawable/bg_isifield"
             android:backgroundTint="@color/textfield"
             android:drawableStart="@drawable/iconprofil"
@@ -89,11 +89,11 @@
 
         <TextView
             android:id="@+id/tvkatasandilama"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/lato"
-            android:gravity="center"
+            android:gravity="left"
             android:paddingTop="0dp"
             android:text="kata sandi lama"
             android:textSize="15dp"
@@ -102,7 +102,7 @@
         <EditText
             android:id="@+id/edt_masukankatasandilama"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="45dp"
             android:background="@drawable/bg_isifield"
             android:backgroundTint="@color/textfield"
             android:drawableStart="@drawable/icongembok"
@@ -117,11 +117,11 @@
 
         <TextView
             android:id="@+id/tvkatasandibaru"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/lato"
-            android:gravity="center"
+            android:gravity="left"
             android:paddingTop="0dp"
             android:text="Kata sandi baru"
             android:textSize="15dp"
@@ -130,7 +130,7 @@
         <EditText
             android:id="@+id/edt_masukankatasandibaru"
             android:layout_width="match_parent"
-            android:layout_height="49dp"
+            android:layout_height="45dp"
             android:background="@drawable/bg_isifield"
             android:backgroundTint="@color/textfield"
             android:drawableStart="@drawable/icongembok"
@@ -145,12 +145,11 @@
 
         <TextView
             android:id="@+id/tvkonfirmasikatasandibaru"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/lato"
-            android:gravity="center"
-            android:paddingTop="0dp"
+            android:gravity="left"
             android:text="Konfirmasi kata sandi baru"
             android:textSize="15dp"
             tools:ignore="TextSizeCheck" />
@@ -158,7 +157,7 @@
         <EditText
             android:id="@+id/edt_masukanpassword"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="45dp"
             android:background="@drawable/bg_isifield"
             android:backgroundTint="@color/textfield"
             android:drawableStart="@drawable/icongembok"
@@ -179,7 +178,6 @@
             android:orientation="horizontal">
 
             <Button
-
                 android:id="@+id/btnperbaruikatasandi"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
@@ -187,7 +185,8 @@
                 android:background="@drawable/bg_button"
                 android:fontFamily="@font/lato_bold"
                 android:text="Perbarui kata sandi"
-                android:textSize="20sp"></Button>
+                android:textSize="20sp">
+            </Button>
         </LinearLayout>
     </LinearLayout>
 
