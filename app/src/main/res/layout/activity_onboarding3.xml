@@ -55,7 +55,8 @@
                     android:padding="5dp"
                     android:text="Temukan destinasi wisata dan Homestaydi Raja Ampat yang siap Anda kunjungi"
                     android:textColor="@color/black"
-                    android:textSize="15dp"></TextView>
+                    android:textSize="15dp"
+                    tools:ignore="TextSizeCheck"></TextView>
 
                 <Button
                     android:id="@+id/btnnext"

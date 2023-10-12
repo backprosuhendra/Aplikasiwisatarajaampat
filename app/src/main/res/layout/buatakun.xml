@@ -35,6 +35,7 @@
         app:layout_constraintVertical_bias="0.645">
 
         <TextView
+            android:textColor="@color/black"
             android:id="@+id/tvusername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,11 +58,11 @@
             android:hint="masukan username"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
-            android:shadowColor="@color/black"
             android:textColor="@color/black"
             android:textColorHint="@color/textisi" />
 
         <TextView
+            android:textColor="@color/black"
             android:id="@+id/tvnomortelepon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -90,6 +91,7 @@
             android:textColorHint="@color/textisi" />
 
         <TextView
+            android:textColor="@color/black"
             android:id="@+id/tvemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -117,6 +119,7 @@
             android:textColorHint="@color/textisi" />
 
         <TextView
+            android:textColor="@color/black"
             android:id="@+id/tvkatasandi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -148,7 +151,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/lato"
             android:text="Gunakan 6 karakter dengan campuran huruf, angka dan simbol."
-            android:textColor="@color/textisi"
+            android:textColor="@color/black"
             android:textSize="15dp" />
 
         <LinearLayout
@@ -160,10 +163,9 @@
 
             <Button
                 android:id="@+id/btnmasuk"
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
-                android:layout_marginRight="10dp"
                 android:background="@drawable/bg_button"
                 android:fontFamily="@font/lato_bold"
                 android:text="Masuk"
@@ -172,7 +174,7 @@
 
             <Button
                 android:id="@+id/btnmendaftar"
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -181,10 +183,7 @@
                 android:text="Mendaftar"
                 android:textColor="@color/white"
                 android:textSize="20sp"></Button>
-
-
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -197,7 +196,8 @@
                 android:fontFamily="@font/lato"
                 android:text="Sudah punya akun?"
                 android:textSize="15dp"
-                tools:ignore="TextSizeCheck" />
+                tools:ignore="TextSizeCheck"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/tvmasuk"
@@ -206,7 +206,7 @@
                 android:fontFamily="@font/lato"
                 android:text="Masuk"
                 android:textColor="@color/biru"
-                android:textColorHint="@color/buttonbiru"
+                android:textColorHint="@color/black"
                 android:textSize="15dp"
                 tools:ignore="TextSizeCheck" />
         </LinearLayout>
