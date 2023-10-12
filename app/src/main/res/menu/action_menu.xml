@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/tag_unhandled_key_event_manager"
-        android:icon="@drawable/iconback"
-        android:title="@string/tombolkembali"
-        app:showAsAction="ifRoom" />
-
-    <item
-        android:id="@+id/none"
-        android:icon="@drawable/person"
-        android:title="@string/tombolkembali"
-        app:showAsAction="ifRoom"/>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="cari"
+        android:id="@+id/Cari"
+        android:icon="@drawable/baseline_search_24"/>
+<!--    <item android:title="favorit"
+        android:id="@+id/favorit"
+        android:icon="@drawable/favoriticon"/>-->
+    <item android:title="pemesanan"
+        android:id="@+id/pemesanan"
+        android:icon="@drawable/pemesanan"/>
+    <item android:title="profil"
+        android:id="@+id/profil"
+        android:icon="@drawable/profilicon"/>
 </menu>

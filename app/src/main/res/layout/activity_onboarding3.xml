@@ -39,7 +39,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:fontFamily="@font/lato_bold"
                     android:gravity="left"
                     android:padding="5dp"
@@ -60,8 +60,8 @@
 
                 <Button
                     android:id="@+id/btnnext"
-                    android:layout_width="259dp"
-                    android:layout_height="48dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:background="@drawable/bg_button"

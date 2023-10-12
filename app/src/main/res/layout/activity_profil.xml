@@ -112,7 +112,7 @@
 
         <EditText
             android:id="@+id/edt_masukanusername"
-            android:layout_width="355dp"
+            android:layout_width="match_parent"
             android:layout_height="35dp"
             android:background="@drawable/isitextprofil"
             android:drawablePadding="5dp"
@@ -123,11 +123,11 @@
 
         <TextView
             android:id="@+id/tvnomortelepon"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/lato"
-            android:gravity="center"
+            android:gravity="left"
             android:paddingTop="0dp"
             android:text="Nomor telepon"
             android:textSize="15dp"
@@ -135,7 +135,7 @@
 
         <EditText
             android:id="@+id/edt_nomortelepon"
-            android:layout_width="354dp"
+            android:layout_width="match_parent"
             android:layout_height="35dp"
             android:background="@drawable/isitextprofil"
             android:drawablePadding="5dp"
@@ -146,19 +146,18 @@
 
         <TextView
             android:id="@+id/tvemail"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/lato"
-            android:gravity="center"
-            android:paddingTop="0dp"
+            android:gravity="left"
             android:text="Email"
             android:textSize="15dp"
             tools:ignore="TextSizeCheck" />
 
         <EditText
             android:id="@+id/edt_email"
-            android:layout_width="354dp"
+            android:layout_width="match_parent"
             android:layout_height="35dp"
             android:background="@drawable/isitextprofil"
             android:drawablePadding="5dp"
@@ -169,19 +168,18 @@
 
         <TextView
             android:id="@+id/tvpassword"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/lato"
-            android:gravity="center"
-            android:paddingTop="0dp"
+            android:gravity="left"
             android:text="Password"
             android:textSize="15dp"
             tools:ignore="TextSizeCheck" />
 
         <EditText
             android:id="@+id/edt_password"
-            android:layout_width="354dp"
+            android:layout_width="match_parent"
             android:layout_height="35dp"
             android:background="@drawable/isitextprofil"
             android:drawablePadding="5dp"
@@ -192,13 +190,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
 
             <Button
                 android:id="@+id/btnkeluar"
-                android:layout_width="wrap_content"
+                android:layout_width="109dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/bg_isifield"
@@ -209,7 +208,7 @@
 
             <Button
                 android:id="@+id/btnubahsandi"
-                android:layout_width="wrap_content"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/bg_button"
@@ -220,7 +219,7 @@
 
             <Button
                 android:id="@+id/btnmasuk"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_button"
                 android:fontFamily="@font/lato_bold"

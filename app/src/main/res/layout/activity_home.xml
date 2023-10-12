@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".home">
-    <View
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="429dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:background="@color/biru"
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/action_menu"/>
+
+   <!-- <View
         android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -37,7 +62,8 @@
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:padding="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
 
             <ImageView
                 android:id="@+id/lip"
@@ -46,19 +72,21 @@
                 app:srcCompat="@drawable/lipse" />
 
             <LinearLayout
-                android:layout_width="272dp"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="vertical"
                 android:padding="20dp">
 
                 <TextView
                     android:id="@+id/nama"
-                    android:layout_width="wrap_content"
-                    android:layout_height="31dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
                     android:textColor="@color/black"
+                    android:fontFamily="@font/lato_bold"
                     android:text="Hallo, Elfan 👋" />
 
                 <TextView
+                    android:fontFamily="@font/lato"
                     android:id="@+id/email"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -66,43 +94,52 @@
                     android:text="Ayo temukan Homestay yang nyaman dan tempat wisata di Raja Ampat." />
             </LinearLayout>
         </LinearLayout>
-            <LinearLayout
-                android:layout_width="391dp"
-                android:layout_marginTop="120dp"
-                android:layout_height="52dp"
-                android:gravity="center"
-                android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/tvpenginapan"
-                    android:layout_width="150dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:background="@drawable/butonshape2"
-                    android:drawableStart="@drawable/smss"
-                    android:gravity="center"
-                    android:padding="10dp"
-                    android:text="Penginapan"
-                    android:textColor="@color/black" />
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.211"
+        tools:ignore="MissingConstraints">
 
-                <TextView
-                    android:id="@+id/tvspotwisata"
-                    android:layout_width="150dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
-                    android:background="@drawable/butonshape2"
+        <TextView
+            android:id="@+id/tvpenginapan"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/butonshape2"
+            android:drawableStart="@drawable/smss"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Penginapan"
+            android:textColor="@color/white" />
 
-                    android:drawableStart="@drawable/smss"
-                    android:gravity="center"
-                    android:padding="10dp"
-                    android:text="Spot wisata"
-                    android:textColor="@color/black" />
-            </LinearLayout>
-                <LinearLayout
+        <TextView
+            android:id="@+id/tvspotwisata"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/butonshape2"
+            android:drawableStart="@drawable/smss"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Spot wisata"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
                     android:padding="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="190dp"
-                    android:orientation="vertical"/>
-</RelativeLayout>
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
