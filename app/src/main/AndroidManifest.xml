@@ -16,7 +16,7 @@
             android:name=".Pemesanan_kamar"
             android:exported="false" />
         <activity
-            android:name=".Detailagent"
+            android:name=".home"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".home"
+            android:name=".Detailagent"
             android:exported="false" />
         <activity
             android:name=".onboarding3"

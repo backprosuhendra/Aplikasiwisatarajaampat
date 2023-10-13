@@ -12,29 +12,31 @@
         <include
             android:id="@+id/costumtoolbar"
             layout="@layout/toolbar"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"></include>
 
         <ScrollView
+            android:id="@+id/scrollView2"
             android:layout_width="394dp"
             android:layout_height="653dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:paddingTop="0dp"
-            android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteY="60dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="60dp"
-                tools:ignore="MissingConstraints">
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="60dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -51,7 +53,9 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/bgonboarding2"></ImageView>
+                        android:background="@drawable/bgonboarding2">
+
+                    </ImageView>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -120,178 +124,187 @@
                             android:text="jum’at, 15 sep 2023,Sebelum pukul 12:00"></TextView>
                     </LinearLayout>
                 </LinearLayout>
-            <LinearLayout
-                android:layout_marginTop="0dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="60dp"
-                tools:ignore="MissingConstraints">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Jenis kamar"
-                    android:textSize="15dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/lato"></TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="tes"
-                    android:textSize="15dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/lato"></TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Tipe kamar tidur"
-                    android:textSize="15dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/lato"></TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="tes"
-                    android:textSize="15dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/lato"></TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="fasilitas"
-                    android:textSize="15dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/lato"></TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="tes"
-                    android:textSize="15dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/lato"></TextView>
-            </LinearLayout>
-
-
-
-
-
-
-
-                    <LinearLayout
-                        android:id="@+id/xdsd"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:orientation="vertical"
-
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.6"
-                        app:layout_constraintStart_toStartOf="parent"
-                        tools:ignore="MissingConstraints"
-                        tools:layout_editor_absoluteY="351dp">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/lato_bold"
-                            android:text="Detail Kontak"
-                            android:textColor="@color/black"
-                            android:textSize="20dp">
-
-                        </TextView>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Nama lengkap"></TextView>
-
-                        <EditText
-                            android:id="@+id/edt_masukanusername"
-                            android:layout_width="match_parent"
-                            android:layout_height="45dp"
-                            android:background="@drawable/bg_isifield"
-                            android:backgroundTint="@color/textfield"
-                            android:drawableStart="@drawable/baseline_person_24"
-                            android:drawablePadding="5dp"
-                            android:fontFamily="@font/lato"
-                            android:hint="masukan nama lengkap"
-                            android:inputType="textPersonName"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/black"
-                            android:textColorHint="@color/textisi"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Email"></TextView>
-
-                        <EditText
-                            android:id="@+id/edt_masukanemail"
-                            android:layout_width="match_parent"
-                            android:layout_height="45dp"
-                            android:background="@drawable/bg_isifield"
-                            android:backgroundTint="@color/textfield"
-                            android:drawableStart="@drawable/iconpesa"
-                            android:drawablePadding="5dp"
-                            android:fontFamily="@font/lato"
-                            android:hint="masukan email"
-                            android:inputType="textPersonName"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/black"
-                            android:textColorHint="@color/textisi"
-                            tools:ignore="TouchTargetSizeCheck" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Nomor telepon"></TextView>
-
-                        <EditText
-                            android:id="@+id/edt_nomortelepon"
-                            android:layout_width="match_parent"
-                            android:layout_height="45dp"
-                            android:background="@drawable/bg_isifield"
-                            android:backgroundTint="@color/textfield"
-                            android:drawableStart="@drawable/baseline_person_24"
-                            android:drawablePadding="5dp"
-                            android:fontFamily="@font/lato"
-                            android:hint="masukan nomor telepon"
-                            android:inputType="textPersonName"
-                            android:paddingLeft="20dp"
-                            android:textColor="@color/black"
-                            android:textColorHint="@color/textisi"
-                            tools:ignore="TouchTargetSizeCheck" />
-                    </LinearLayout>
-            <LinearLayout
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="60dp"
-                tools:ignore="MissingConstraints">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/lato_bold"
-                    android:text="Detail Harga"
-                    android:textColor="@color/black"
-                    android:textSize="20dp"></TextView>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="60dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato"
+                        android:text="Jenis kamar"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        tools:ignore="TextSizeCheck"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato"
+                        android:text="tes"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        tools:ignore="TextSizeCheck"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato"
+                        android:text="Tipe kamar tidur"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        tools:ignore="TextSizeCheck"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato"
+                        android:text="tes"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        tools:ignore="TextSizeCheck"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato"
+                        android:text="fasilitas"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        tools:ignore="TextSizeCheck"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato"
+                        android:text="tes"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        tools:ignore="TextSizeCheck"></TextView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/xdsd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="351dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_bold"
+                        android:text="Detail Kontak"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nama lengkap"></TextView>
+
+                    <EditText
+                        android:id="@+id/edt_masukanusername"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_isifield"
+                        android:backgroundTint="@color/textfield"
+                        android:drawableStart="@drawable/baseline_person_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/lato"
+                        android:hint="masukan nama lengkap"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/textisi"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email"></TextView>
+
+                    <EditText
+                        android:id="@+id/edt_masukanemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_isifield"
+                        android:backgroundTint="@color/textfield"
+                        android:drawableStart="@drawable/iconpesa"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/lato"
+                        android:hint="masukan email"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/textisi"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nomor telepon"></TextView>
+
+                    <EditText
+                        android:id="@+id/edt_nomortelepon"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_isifield"
+                        android:backgroundTint="@color/textfield"
+                        android:drawableStart="@drawable/baseline_person_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/lato"
+                        android:hint="masukan nomor telepon"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/textisi"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="60dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_bold"
+                        android:text="Detail Harga"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="163dp"
@@ -304,66 +317,69 @@
                             android:layout_marginLeft="40dp"
                             android:text="Rp 550.000"></TextView>
                     </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="163dp"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Pajak dan biaya"></TextView>
+                        android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="152dp"
+                        <TextView
+                            android:layout_width="163dp"
+                            android:layout_height="wrap_content"
+                            android:text="Pajak dan biaya"></TextView>
+
+                        <TextView
+                            android:layout_width="152dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:text="Rp 50.000"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:text="Rp 50.000"></TextView>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                        android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="163dp"
+                        <TextView
+                            android:layout_width="163dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lato_bold"
+                            android:text="Total"
+                            android:textColor="@color/black"
+                            android:textSize="25dp"></TextView>
+
+                        <TextView
+                            android:layout_width="152dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:text="Rp 600.000"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Total"
-                        android:textSize="25dp"
-                        android:textColor="@color/black"
-                        android:fontFamily="@font/lato_bold"></TextView>
+                        android:gravity="left"
+                        android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="152dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:text="Rp 600.000"></TextView>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="left">
+                        <Button
+                            android:id="@+id/btnmahsuk"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:layout_marginRight="100dp"
+                            android:background="@drawable/bg_button"
+                            android:fontFamily="@font/lato_bold"
+                            android:text="Masuk"
+                            android:textSize="20sp"></Button>
 
-                    <Button
-                        android:id="@+id/btnmahsuk"
-                        android:layout_width="110dp"
-                        android:layout_height="45dp"
-                        android:layout_marginRight="100"
-                        android:background="@drawable/bg_button"
-                        android:fontFamily="@font/lato_bold"
-                        android:text="Masuk"
-                        android:textSize="20sp"></Button>
-
-                    <Button
-                        android:id="@+id/btnmasuk"
-                        android:layout_width="110dp"
-                        android:layout_height="45dp"
-                        android:background="@drawable/bg_button"
-                        android:fontFamily="@font/lato_bold"
-                        android:text="Pesan"
-                        android:textSize="20sp"></Button>
-                </LinearLayout>
+                        <Button
+                            android:id="@+id/btnmasuk"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_button"
+                            android:fontFamily="@font/lato_bold"
+                            android:text="Pesan"
+                            android:textSize="20sp"></Button>
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
 
