@@ -142,5 +142,5 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="190dp"
                     android:orientation="vertical"
-                    tools:ignore="MissingConstraints" />-->
+                    tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
