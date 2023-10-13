@@ -13,8 +13,11 @@
         android:theme="@style/Theme.Aplikasiwisatarajaampat"
         tools:targetApi="31">
         <activity
+            android:name=".Pemesanan_kamar"
+            android:exported="false" />
+        <activity
             android:name=".Detailagent"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +26,7 @@
         </activity>
         <activity
             android:name=".home"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".onboarding3"
             android:exported="false" />
