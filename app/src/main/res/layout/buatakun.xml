@@ -59,7 +59,7 @@
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
             android:textColor="@color/black"
-            android:textColorHint="@color/textisi" />
+            android:textColorHint="@color/textisi"/>
 
         <TextView
             android:textColor="@color/black"
