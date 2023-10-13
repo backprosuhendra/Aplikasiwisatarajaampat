@@ -85,7 +85,6 @@
             android:textColor="@color/black"
             android:textColorHint="@color/textisi" />
 
-
         <Button
             android:id="@+id/btnmasuk"
             android:layout_width="120dp"

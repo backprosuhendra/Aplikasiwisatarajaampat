@@ -19,6 +19,44 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <EditText
+                android:id="@+id/edt_masukansandi"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_isifield"
+                android:backgroundTint="@color/textfield"
+                android:drawableStart="@drawable/icongembok"
+                android:drawablePadding="5dp"
+                android:hint="Cari"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/textisi"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btnmasuk"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/butonshape2"
+                android:fontFamily="@font/lato_bold"
+                android:text="Masuk"
+                android:textSize="20sp"></Button>
+
+        </LinearLayout>
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -29,23 +67,23 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-
         app:menu="@menu/action_menu"/>
 
-<View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginBottom="531dp"
-        android:background="@drawable/home"
-        android:outlineAmbientShadowColor="@color/black"
-        android:outlineSpotShadowColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.946"
-        app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"></View>
+            <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="531dp"
+                    android:background="@drawable/home"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:outlineSpotShadowColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.946"
+                    app:layout_constraintStart_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0">
+            </View>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -136,11 +174,4 @@
             android:textColor="@color/white" />
     </LinearLayout>
 
-    <LinearLayout
-                    android:padding="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="190dp"
-                    android:orientation="vertical"
-                    tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

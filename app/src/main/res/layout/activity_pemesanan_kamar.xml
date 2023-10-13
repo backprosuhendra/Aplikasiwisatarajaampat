@@ -329,15 +329,40 @@
                         android:layout_width="163dp"
                         android:layout_height="wrap_content"
                         android:text="Total"
-                        android:textSize="30"
+                        android:textSize="25dp"
                         android:textColor="@color/black"
-                        android:fontFamily="@font/lato"></TextView>
+                        android:fontFamily="@font/lato_bold"></TextView>
 
                     <TextView
                         android:layout_width="152dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="40dp"
                         android:text="Rp 600.000"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="left">
+
+                    <Button
+                        android:id="@+id/btnmahsuk"
+                        android:layout_width="110dp"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="100"
+                        android:background="@drawable/bg_button"
+                        android:fontFamily="@font/lato_bold"
+                        android:text="Masuk"
+                        android:textSize="20sp"></Button>
+
+                    <Button
+                        android:id="@+id/btnmasuk"
+                        android:layout_width="110dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_button"
+                        android:fontFamily="@font/lato_bold"
+                        android:text="Pesan"
+                        android:textSize="20sp"></Button>
                 </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
