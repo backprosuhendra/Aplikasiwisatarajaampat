@@ -22,11 +22,11 @@
 
         <ImageView
             android:id="@+id/icon"
-            android:layout_width="152dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/ic_launcher_background"
+            android:layout_width="141dp"
+            android:layout_height="116dp"
+            android:background="@drawable/loogotravel"
             android:baselineAlignBottom="true"
+            android:scaleType="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.727"

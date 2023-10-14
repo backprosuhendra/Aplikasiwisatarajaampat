@@ -84,7 +84,8 @@
             android:paddingLeft="20dp"
             android:shadowColor="@color/black"
             android:textColor="@color/black"
-            android:textColorHint="@color/textisi" />
+            android:textColorHint="@color/textisi"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/tvkatasandibaru"
@@ -112,7 +113,8 @@
             android:paddingLeft="20dp"
             android:shadowColor="@color/black"
             android:textColor="@color/black"
-            android:textColorHint="@color/textisi" />
+            android:textColorHint="@color/textisi"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/tvkonfirmasikatasandibaru"
@@ -139,7 +141,8 @@
             android:paddingLeft="20dp"
             android:shadowColor="@color/black"
             android:textColor="@color/black"
-            android:textColorHint="@color/textisi" />
+            android:textColorHint="@color/textisi"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -156,8 +159,8 @@
                 android:background="@drawable/bg_button"
                 android:fontFamily="@font/lato_bold"
                 android:text="Perbarui kata sandi"
-                android:textSize="20sp">
-            </Button>
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck"></Button>
         </LinearLayout>
     </LinearLayout>
 

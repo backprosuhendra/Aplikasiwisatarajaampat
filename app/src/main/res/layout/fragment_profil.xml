@@ -123,7 +123,8 @@
             android:fontFamily="@font/lato"
             android:paddingLeft="20dp"
             android:text="Regina bara"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/tvnomortelepon"
@@ -146,7 +147,8 @@
             android:fontFamily="@font/lato"
             android:paddingLeft="20dp"
             android:text="082199094203"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/tvemail"
@@ -168,7 +170,8 @@
             android:fontFamily="@font/lato"
             android:paddingLeft="20dp"
             android:text="reginabara@gmail.com"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/tvpassword"
@@ -190,7 +193,8 @@
             android:fontFamily="@font/lato"
             android:paddingLeft="20dp"
             android:text="********"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -59,7 +59,7 @@
                     tools:ignore="TextSizeCheck"></TextView>
 
                 <Button
-                    android:id="@+id/btnnext"
+                    android:id="@+id/btn_next2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -83,7 +83,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/btnnext1"
+                android:id="@+id/tv_next1"
                 android:layout_width="25dp"
                 android:layout_height="10dp"
                 android:layout_marginLeft="5dp"
@@ -91,7 +91,7 @@
                 android:gravity="center"></TextView>
 
             <TextView
-                android:id="@+id/btnnext2"
+                android:id="@+id/tv_next2"
                 android:layout_width="25dp"
                 android:layout_height="10dp"
                 android:layout_marginLeft="5dp"
@@ -99,13 +99,12 @@
                 android:gravity="center"></TextView>
 
             <TextView
-                android:id="@+id/btnnext3"
+                android:id="@+id/tv_next3"
                 android:layout_width="25dp"
                 android:layout_height="10dp"
                 android:layout_marginLeft="5dp"
                 android:background="@drawable/iconnext2"
                 android:gravity="center"></TextView>
-
         </LinearLayout>
 
     </LinearLayout>

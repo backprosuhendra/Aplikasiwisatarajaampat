@@ -62,16 +62,17 @@
                     tools:ignore="TextSizeCheck"></TextView>
 
                 <Button
-                    android:id="@+id/btnnext"
+                    android:id="@+id/btn_next3"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
                     android:background="@drawable/bg_button"
                     android:fontFamily="@font/lato_bold"
                     android:text="next"
                     android:textColor="@color/white"
-                    android:textSize="20sp"></Button>
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck"></Button>
 
             </LinearLayout>
 

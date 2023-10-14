@@ -174,7 +174,8 @@
                 android:fontFamily="@font/lato_bold"
                 android:text="Masuk"
                 android:textColor="@color/white"
-                android:textSize="20sp"></Button>
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck"></Button>
 
             <Button
                 android:id="@+id/btn_mendaftar"
@@ -186,7 +187,8 @@
                 android:fontFamily="@font/lato_bold"
                 android:text="Mendaftar"
                 android:textColor="@color/white"
-                android:textSize="20sp"></Button>
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck"></Button>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"

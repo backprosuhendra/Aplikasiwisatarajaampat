@@ -5,27 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".buatkatasandibaru">
+
     <include
+        android:id="@+id/include"
         layout="@layout/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></include>
+
     <LinearLayout
-        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
         android:orientation="vertical"
-        android:padding="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191"
+        app:layout_constraintTop_toBottomOf="@+id/include"
         tools:ignore="MissingConstraints">
 
 
         <TextView
+            android:textColor="@color/black"
             android:id="@+id/tvlupasandi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,11 +40,11 @@
             app:layout_constraintVertical_bias="0.237" />
 
         <TextView
-            android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Jaga keamanan akun Anda dengan membuat kata sandi yang kuat."
+            android:textSize="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.627"
@@ -116,7 +116,6 @@
             android:hint="konfirmasi kata sandi baru"
             android:inputType="textPassword"
             android:paddingLeft="20dp"
-            android:shadowColor="@color/black"
             android:textColor="@color/black"
             android:textColorHint="@color/textisi"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -154,18 +153,18 @@
 
     </LinearLayout>
 
-<!--    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar2"
-        android:layout_width="393dp"
-        android:layout_height="50dp"
-        android:background="@color/tampilanatasbiru"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />-->
+    <!--    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="393dp"
+            android:layout_height="50dp"
+            android:background="@color/tampilanatasbiru"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
