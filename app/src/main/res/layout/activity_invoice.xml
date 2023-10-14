@@ -69,11 +69,11 @@
                 android:text="Rp 600.000" />
         </LinearLayout>
         <TextView
-            android:gr="center"
             android:id="@+id/df"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="kamar bugdet double" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
