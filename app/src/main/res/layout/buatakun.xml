@@ -49,7 +49,7 @@
         <EditText
             android:id="@+id/edt_masukanusername"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="45dp"
             android:background="@drawable/bg_isifield"
             android:backgroundTint="@color/textfield"
             android:drawableStart="@drawable/baseline_person_24"
@@ -59,7 +59,8 @@
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
             android:textColor="@color/black"
-            android:textColorHint="@color/textisi"/>
+            android:textColorHint="@color/textisi"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:textColor="@color/black"
@@ -77,7 +78,7 @@
         <EditText
             android:id="@+id/edt_masukannomortelepon"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="45dp"
             android:background="@drawable/bg_isifield"
             android:backgroundTint="@color/textfield"
             android:drawableStart="@drawable/icontelepon"
@@ -88,7 +89,8 @@
             android:paddingLeft="20dp"
             android:shadowColor="@color/black"
             android:textColor="@color/black"
-            android:textColorHint="@color/textisi" />
+            android:textColorHint="@color/textisi"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:textColor="@color/black"
@@ -106,7 +108,7 @@
         <EditText
             android:id="@+id/edt_masukanemail"
             android:layout_width="match_parent"
-            android:layout_height="49dp"
+            android:layout_height="45dp"
             android:background="@drawable/bg_isifield"
             android:backgroundTint="@color/textfield"
             android:drawableStart="@drawable/smss"
@@ -116,7 +118,8 @@
             android:inputType="textEmailAddress"
             android:paddingLeft="20dp"
             android:textColor="@color/black"
-            android:textColorHint="@color/textisi" />
+            android:textColorHint="@color/textisi"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:textColor="@color/black"
@@ -131,9 +134,9 @@
             tools:ignore="TextSizeCheck" />
 
         <EditText
-            android:id="@+id/edt_masukanpassword"
+            android:id="@+id/edt_katasandi"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="45dp"
             android:background="@drawable/bg_isifield"
             android:backgroundTint="@color/textfield"
             android:drawableStart="@drawable/icongembok"
@@ -144,7 +147,8 @@
             android:paddingLeft="20dp"
             android:shadowColor="@color/black"
             android:textColor="@color/black"
-            android:textColorHint="@color/textisi" />
+            android:textColorHint="@color/textisi"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -152,19 +156,19 @@
             android:fontFamily="@font/lato"
             android:text="Gunakan 6 karakter dengan campuran huruf, angka dan simbol."
             android:textColor="@color/black"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:gravity="center"
-            android:orientation="horizontal"
-            android:padding="1dp">
+            android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btnmasuk"
+                android:id="@+id/btn_masuk"
                 android:layout_width="150dp"
-                android:layout_height="48dp"
+                android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:background="@drawable/bg_button"
                 android:fontFamily="@font/lato_bold"
@@ -173,9 +177,9 @@
                 android:textSize="20sp"></Button>
 
             <Button
-                android:id="@+id/btnmendaftar"
+                android:id="@+id/btn_mendaftar"
                 android:layout_width="150dp"
-                android:layout_height="48dp"
+                android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:background="@drawable/bg_button"
@@ -201,7 +205,7 @@
 
             <TextView
                 android:id="@+id/tvmasuk"
-                android:layout_width="55dp"
+                android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:fontFamily="@font/lato"
                 android:text="Masuk"
@@ -210,12 +214,9 @@
                 android:textSize="15dp"
                 tools:ignore="TextSizeCheck" />
         </LinearLayout>
-
-
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"

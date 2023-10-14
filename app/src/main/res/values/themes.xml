@@ -1,8 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Aplikasiwisatarajaampat" parent="Theme.Material3.DayNight.NoActionBar">
-         Customize your light theme here.
+<!--         Customize your light theme here.-->
          <item name="colorPrimary">@color/buttonbiru</item>
+        <item name="colorPrimaryVariant">#FF000000</item>
+        <item name="colorOnPrimary">#FFFFFFFF</item>
+        <item name="colorSecondary">#32BCFE</item>
+        <color name="buttonpenginapanspotwisata">#579CCF </color>
+        <color name="tampilanatasbiru">#18A0E1 </color>
+        <color name="textisi">#969BAB </color>
+        <color name="textfield">#F3F8FF </color>
+        <color name="kosoong">#00B1B1B1</color>
     </style>
 
     <style name="Theme.Aplikasiwisatarajaampat" parent="Base.Theme.Aplikasiwisatarajaampat" />
