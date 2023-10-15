@@ -108,7 +108,6 @@
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:background="@drawable/butonshapeisitext"
-
             android:drawableStart="@drawable/smss"
             android:drawablePadding="5dp"
             android:fontFamily="@font/lato"
@@ -132,20 +131,17 @@
             tools:ignore="TextSizeCheck" />
 
         <EditText
-            android:id="@+id/edt_katasandi"
+            android:id="@+id/edt_masukansandi"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:background="@drawable/butonshapeisitext"
-            android:drawableStart="@drawable/icongembok"
+            android:drawableStart="@drawable/sign_in"
             android:drawablePadding="5dp"
-            android:fontFamily="@font/lato"
-            android:hint="masukan kata sandi"
-            android:inputType="textPassword"
+            android:hint="Masukan kata sandi"
+            android:inputType="numberPassword"
             android:paddingLeft="20dp"
-            android:shadowColor="@color/black"
             android:textColor="@color/black"
-            android:textColorHint="@color/textisi"
-            tools:ignore="TouchTargetSizeCheck" />
+            android:textColorHint="@color/textisi" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -171,7 +167,7 @@
                 android:fontFamily="@font/lato_bold"
                 android:text="Masuk"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 tools:ignore="TouchTargetSizeCheck"></Button>
 
             <Button
@@ -184,7 +180,7 @@
                 android:fontFamily="@font/lato_bold"
                 android:text="Mendaftar"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="15dp"
                 tools:ignore="TouchTargetSizeCheck"></Button>
         </LinearLayout>
         <LinearLayout
@@ -207,6 +203,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:fontFamily="@font/lato"
+                android:layout_marginLeft="5dp"
                 android:text="Masuk"
                 android:textColor="@color/biru"
                 android:textColorHint="@color/black"

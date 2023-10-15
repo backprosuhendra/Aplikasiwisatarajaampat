@@ -6,172 +6,146 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".home">
-
-    <FrameLayout
-        android:id="@+id/framelayout"
+    <View
+        android:id="@+id/view"
         android:layout_width="match_parent"
-        android:layout_height="429dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
+        android:layout_height="220dp"
+        android:background="@drawable/atasprofil"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></View>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical"
-            tools:ignore="MissingConstraints">
-
-            <EditText
-                android:id="@+id/edt_masukansandi"
+            <FrameLayout
+                android:id="@+id/framelayout"
                 android:layout_width="match_parent"
-                android:layout_height="45dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/bg_isifield"
-                android:backgroundTint="@color/textfield"
-                android:drawableStart="@drawable/icongembok"
-                android:drawablePadding="5dp"
-                android:hint="Cari"
-                android:paddingLeft="10dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/textisi"
-                tools:ignore="TouchTargetSizeCheck" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
-            <Button
-                android:id="@+id/btnmasuk"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center"
-                android:layout_marginRight="20dp"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/butonshape2"
-                android:fontFamily="@font/lato_bold"
-                android:text="Masuk"
-                android:textSize="20sp"></Button>
-
-        </LinearLayout>
-    </FrameLayout>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:background="@color/biru"
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/action_menu"/>
-
-            <View
-                    android:id="@+id/view"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_marginBottom="531dp"
-                    android:background="@drawable/home"
-                    android:outlineAmbientShadowColor="@color/black"
-                    android:outlineSpotShadowColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+                        tools:ignore="MissingConstraints">
+
+                        <ImageView
+                            android:id="@+id/lip"
+                            android:layout_width="49dp"
+                            android:layout_height="107dp"
+                            app:srcCompat="@drawable/profile" />
+
+                        <LinearLayout
+                            android:layout_width="311dp"
+                            android:layout_height="98dp"
+                            android:orientation="vertical"
+                            android:padding="20dp">
+
+                            <TextView
+                                android:id="@+id/nama"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:fontFamily="@font/lato_bold"
+                                android:text="Hallo, Elfan 👋"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:id="@+id/email"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato"
+                                android:text="Ayo temukan Homestay yang nyaman dan tempat wisata di Raja Ampat."
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvpenginapan"
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/butonshape2"
+                            android:drawableStart="@drawable/smss"
+                            android:fontFamily="@font/lato_bold"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="Penginapan"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tvspotwisata"
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:background="@drawable/butonshape2"
+                            android:drawableStart="@drawable/smss"
+                            android:fontFamily="@font/lato_bold"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="Spot wisata"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/lato"
+                        android:text="Tanggal"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/edt_masukansandi"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/butonshapeisitext"
+                        android:drawableStart="@drawable/baseline_calendar_month_24"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/lato"
+                        android:gravity="center_vertical"
+                        android:hint="Pilih tanggal"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/biru"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+            </FrameLayout>
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:background="@color/biru"
+                    android:id="@+id/bottomNavigationView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.946"
-                    app:layout_constraintStart_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0">
-            </View>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="127dp"
-        android:orientation="vertical"
-        android:padding="35dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:padding="10dp"
-            android:orientation="horizontal"
-            tools:ignore="MissingConstraints">
-
-            <ImageView
-                android:id="@+id/lip"
-                android:layout_width="49dp"
-                android:layout_height="107dp"
-                app:srcCompat="@drawable/lipse" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:orientation="vertical"
-                android:padding="20dp">
-
-                <TextView
-                    android:id="@+id/nama"
-                    android:layout_width="match_parent"
-                    android:layout_height="20dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/lato_bold"
-                    android:text="Hallo, Elfan 👋" />
-
-                <TextView
-                    android:fontFamily="@font/lato"
-                    android:id="@+id/email"
-                    android:layout_width="wrap_content"
-                    android:layout_height="60dp"
-                    android:textColor="@color/black"
-                    android:text="Ayo temukan Homestay yang nyaman dan tempat wisata di Raja Ampat." />
-            </LinearLayout>
-        </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="391dp"
-        android:layout_height="52dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.211"
-        tools:ignore="MissingConstraints">
-
-        <TextView
-            android:id="@+id/tvpenginapan"
-            android:layout_width="150dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center"
-            android:background="@drawable/butonshape2"
-            android:drawableStart="@drawable/smss"
-            android:fontFamily="@font/lato_bold"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="Penginapan"
-            android:textColor="@color/white" />
-
-        <TextView
-            android:id="@+id/tvspotwisata"
-            android:layout_width="150dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/butonshape2"
-            android:drawableStart="@drawable/smss"
-            android:fontFamily="@font/lato_bold"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="Spot wisata"
-            android:textColor="@color/white" />
-    </LinearLayout>
-
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:menu="@menu/action_menu"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

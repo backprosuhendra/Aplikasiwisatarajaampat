@@ -13,8 +13,7 @@
         android:layout_height="475.26dp"
         android:layout_marginTop="-150dp"
         android:background="@drawable/iconlogin"
-        android:outlineSpotShadowColor="@color/black"
-        />
+        android:outlineSpotShadowColor="@color/black"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -48,7 +47,7 @@
         <EditText
             android:id="@+id/edt_masukanusername"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="45dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/butonshapeisitext"
             android:drawableStart="@drawable/smss"
@@ -72,10 +71,10 @@
         <EditText
             android:id="@+id/edt_masukansandi"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="45dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/butonshapeisitext"
-            android:drawableStart="@drawable/icongembok"
+            android:drawableStart="@drawable/sign_in"
             android:drawablePadding="5dp"
             android:hint="Masukan kata sandi"
             android:inputType="numberPassword"
@@ -84,6 +83,7 @@
             android:textColorHint="@color/textisi" />
 
         <Button
+            android:textColor="@color/white"
             android:id="@+id/btnmasuk"
             android:layout_width="120dp"
             android:layout_height="48dp"
@@ -92,7 +92,7 @@
             android:background="@drawable/bg_button"
             android:fontFamily="@font/lato_bold"
             android:text="Masuk"
-            android:textSize="20sp"></Button>
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/tvlupapassword"
@@ -102,9 +102,9 @@
             android:gravity="center"
             android:text="Lupa Password"
             android:textColor="@color/biru"
-            android:textColorHint="#1992F3"
+            android:textColorHint="@color/black"
             android:textSize="15dp"
-            tools:ignore="TextSizeCheck" />
+            tools:ignore="TextSizeCheck"/>
 
         <LinearLayout
             android:layout_width="197dp"
@@ -125,10 +125,7 @@
                 android:layout_marginLeft="5dp"
                 android:text="Mendaftar"
                 android:textColor="@color/biru"
-                android:textColorHint="#1992F3" />
+                android:textColorHint="@color/black" />
         </LinearLayout>
-
-
     </LinearLayout>
-
 </RelativeLayout>
