@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Aplikasiwisatarajaampat"
         tools:targetApi="31">
         <activity
+            android:name=".instruksipembayaran"
+            android:exported="false" />
+        <activity
             android:name=".Listpenginapan"
             android:exported="false" />
         <activity
