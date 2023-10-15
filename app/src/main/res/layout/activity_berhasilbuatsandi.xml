@@ -9,10 +9,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="250dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
 
@@ -36,9 +37,9 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Kata Sandi Berubah!"
+            android:textColor="@color/biru"
             android:textSize="30dp"
             android:textStyle="bold"
-            android:textColor="@color/biru"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.086"
@@ -48,11 +49,11 @@
 
         <TextView
             android:id="@+id/tv2"
-            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Kata sandi Anda telah berhasil diubah."
+            android:textColor="@color/black"
             android:textSize="15dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -73,7 +74,6 @@
             android:fontFamily="@font/lato_bold"
             android:text="Kembali untuk masuk"
             android:textSize="15sp"
-            tools:ignore="TouchTargetSizeCheck">
-        </Button>
+            tools:ignore="TouchTargetSizeCheck"></Button>
     </LinearLayout>
 </RelativeLayout>

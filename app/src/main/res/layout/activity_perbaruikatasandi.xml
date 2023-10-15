@@ -74,8 +74,7 @@
             android:id="@+id/edt_masukankatasandilama"
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:background="@drawable/bg_isifield"
-            android:backgroundTint="@color/textfield"
+            android:background="@drawable/butonshapeisitext"
             android:drawableStart="@drawable/icongembok"
             android:drawablePadding="5dp"
             android:fontFamily="@font/lato"
@@ -103,8 +102,7 @@
             android:id="@+id/edt_masukankatasandibaru"
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:background="@drawable/bg_isifield"
-            android:backgroundTint="@color/textfield"
+            android:background="@drawable/butonshapeisitext"
             android:drawableStart="@drawable/icongembok"
             android:drawablePadding="5dp"
             android:fontFamily="@font/lato"
@@ -131,8 +129,7 @@
             android:id="@+id/edt_masukanpassword"
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:background="@drawable/bg_isifield"
-            android:backgroundTint="@color/textfield"
+            android:background="@drawable/butonshapeisitext"
             android:drawableStart="@drawable/icongembok"
             android:drawablePadding="5dp"
             android:fontFamily="@font/lato"
@@ -153,13 +150,13 @@
 
             <Button
                 android:id="@+id/btnperbaruikatasandi"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:background="@drawable/bg_button"
                 android:fontFamily="@font/lato_bold"
                 android:text="Perbarui kata sandi"
-                android:textSize="20sp"
+                android:textSize="10sp"
                 tools:ignore="TouchTargetSizeCheck"></Button>
         </LinearLayout>
     </LinearLayout>

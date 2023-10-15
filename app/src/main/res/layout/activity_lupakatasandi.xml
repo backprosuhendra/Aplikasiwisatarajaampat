@@ -72,8 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bg_isifield"
-            android:backgroundTint="@color/textfield"
+            android:background="@drawable/butonshapeisitext"
             android:drawableStart="@drawable/iconpesa"
             android:drawablePadding="5dp"
             android:hint="Masukan Email"
@@ -84,6 +83,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteY="263dp" />
+
         <Button
             android:id="@+id/btnkodepermintaan"
             android:layout_width="match_parent"
