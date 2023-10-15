@@ -31,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Detailagent"
+            android:name=".Detailpenginapan"
             android:exported="false" />
         <activity
             android:name=".onboarding3"

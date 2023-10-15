@@ -9,7 +9,6 @@
     tools:context=".PenginapanItem">
 
     <androidx.cardview.widget.CardView
-        android:background="@color/biru"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -18,14 +17,14 @@
         app:cardElevation="5dp">
 
         <LinearLayout
-            android:background="@color/biru"
+            android:background="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
+                android:layout_height="140dp"
                 android:id="@+id/iv_wisata"
                 android:scaleType="centerCrop"
                 android:src="@drawable/bg"/>
@@ -43,7 +42,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="0dp"
                 android:layout_marginStart="10dp"
 
                 android:orientation="horizontal">
@@ -91,7 +90,7 @@
             </LinearLayout>
             <TextView
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="0dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="desckripsi homestay"
@@ -104,13 +103,13 @@
                 android:orientation="horizontal"
                 android:textSize="15sp"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="5dp">
 
                 <Button
                     android:id="@+id/tv_desc"
                     android:layout_width="80dp"
                     android:layout_height="40dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="5dp"
                     android:text="Detail"
                     android:background="@drawable/butonshape2"
                     android:textSize="10sp"
