@@ -3,9 +3,9 @@ package com.example.aplikasiwisatarajaampat
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class home : AppCompatActivity() {
+class List_jenis_kamar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_list_jenis_kamar)
     }
 }

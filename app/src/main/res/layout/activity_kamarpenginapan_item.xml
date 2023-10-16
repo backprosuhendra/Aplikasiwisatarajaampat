@@ -7,6 +7,7 @@
     android:background="@color/white"
     android:orientation="vertical"
     tools:context=".kamarpenginapan_item">
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,284 +21,154 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:id="@+id/iv_wisata"
-                android:scaleType="centerCrop"
-                android:src="@drawable/bg"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/lato_bold"
-                android:textColor="@color/black"
-                android:text="nama kamar"
-                android:id="@+id/tv_namahomestay"
-                android:textSize="15sp"
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="10dp"
-                android:textStyle="bold"/>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="5dp"
-                android:layout_margin="5dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginLeft="20dp"
-                android:background="@color/black"></View>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="0dp"
-                android:layout_marginStart="10dp"
-
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:background="@drawable/bintang1"
-                    android:scaleType="fitCenter"></ImageView>
-
-                <ImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:background="@drawable/bintang1"
-                    android:scaleType="fitCenter"></ImageView>
-
-                <ImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:background="@drawable/bintang1"
-                    android:scaleType="fitCenter"></ImageView>
-
-                <ImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:background="@drawable/bintang2"
-                    android:scaleType="fitCenter"></ImageView>
-
-                <ImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:background="@drawable/bintang2"
-                    android:scaleType="fitCenter"></ImageView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:fontFamily="@font/lato"
-                    android:text="100 reviews"
-                    android:textColor="@color/black"
-                    android:textSize="10dp"
-                    tools:ignore="TextSizeCheck" />
-
-            </LinearLayout>
-            <TextView
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="0dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="desckripsi kamar"
-                android:id="@+id/tv_wisata"
-                android:textSize="15sp"
-                android:fontFamily="@font/lato"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:textSize="15sp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="5dp">
-
-                <Button
-                    style="@android:style/Widget.Button"
-                    android:textColor="@color/white"
-                    android:id="@+id/sc"
-                    android:layout_marginRight="10dp"
+                    android:elevation="100dp"
+                    android:id="@+id/iv_wisata"
                     android:layout_width="130dp"
-                    android:layout_height="40dp"
-                    android:layout_marginBottom="5dp"
-                    android:text="Daftar Keinginan"
-                    android:background="@drawable/butonshape2"
-                    android:textSize="15sp"
-                    tools:ignore="TouchTargetSizeCheck" />
-                <Button
-                    style="@android:style/Widget.Button"
-                    android:textColor="@color/white"
-                    android:id="@+id/tv_desc"
-                    android:layout_width="80dp"
-                    android:layout_height="40dp"
-                    android:layout_marginBottom="5dp"
-                    android:text="Pilih"
-                    android:background="@drawable/butonshape2"
-                    android:textSize="15sp"
-                    tools:ignore="TouchTargetSizeCheck" />
-
+                    android:layout_height="130dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bgonboarding2" />
                 <LinearLayout
-                    android:layout_marginRight="10dp"
-                    android:layout_gravity="center_vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="end"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_bold"
+                        android:textColor="@color/black"
+                        android:text="nama kamar"
+                        android:id="@+id/tv_namahomestay"
+                        android:textSize="15sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"/>
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:layout_margin="4dp"
-                        android:src="@drawable/favoriticon2" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_margin="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="desckripsi ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddkamar"
+                        android:id="@+id/tv_wisata"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/lato"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_bold"
+                        android:textColor="@color/black"
+                        android:text="Rp 500.000/Hari"
+                        android:textSize="15sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"/>
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:layout_margin="4dp"
-                        android:src="@drawable/baseline_share_24" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:background="@drawable/bintang1"
+                            android:scaleType="fitCenter"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:background="@drawable/bintang1"
+                            android:scaleType="fitCenter"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:background="@drawable/bintang1"
+                            android:scaleType="fitCenter"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:background="@drawable/bintang2"
+                            android:scaleType="fitCenter"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:background="@drawable/bintang2"
+                            android:scaleType="fitCenter"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:fontFamily="@font/lato"
+                            android:text="100 reviews"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            tools:ignore="TextSizeCheck" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:textSize="15sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp">
+
+                        <Button
+                            style="@android:style/Widget.Button"
+                            android:textColor="@color/white"
+                            android:id="@+id/tv_descc"
+                            android:layout_width="70dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="5dp"
+                            android:text="Pilih"
+                            android:background="@drawable/butonshape4"
+                            android:textSize="15sp"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="end"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_margin="4dp"
+                                android:src="@drawable/favoriticon2" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_margin="4dp"
+                                android:src="@drawable/baseline_share_24" />
+                        </LinearLayout>
+                    </LinearLayout>
                 </LinearLayout>
+
             </LinearLayout>
+
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>
-<!--
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:gravity="center_vertical">
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/iv_wisata"
-            android:scaleType="fitCenter"
-            android:src="@drawable/bg"/>
-        <Space
-            android:layout_width="12dp"
-            android:layout_height="wrap_content"/>
-
-
-        <LinearLayout
-            android:layout_width="261dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/tv_namakamar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/lato_bold"
-                android:text="nama kamar"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="bold" />
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="6dp" />
-
-            <TextView
-                android:id="@+id/tv_deskripsi"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/lato"
-                android:text="Desckripsi"
-                android:textSize="12sp" />
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="6dp" />
-
-            <TextView
-                android:id="@+id/tv_harga"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/lato"
-                android:text="harga"
-                android:textColor="@color/black"
-                android:textSize="12sp"
-                android:textStyle="bold" />
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="6dp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:background="@drawable/bintang1"
-                    android:scaleType="fitCenter"></ImageView>
-
-                <ImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:background="@drawable/bintang1"
-                    android:scaleType="fitCenter"></ImageView>
-
-                <ImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:background="@drawable/bintang1"
-                    android:scaleType="fitCenter"></ImageView>
-
-                <ImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:background="@drawable/bintang2"
-                    android:scaleType="fitCenter"></ImageView>
-
-                <ImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:background="@drawable/bintang2"
-                    android:scaleType="fitCenter"></ImageView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="10dp"
-                    android:layout_gravity="left"
-                    android:fontFamily="@font/lato"
-                    android:text="100 reviews"
-                    android:textColor="@color/black"
-                    android:textSize="10dp"
-                    tools:ignore="TextSizeCheck" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/tv_kengininan"
-                    android:layout_width="150dp"
-                    android:layout_height="40dp"
-                    android:layout_marginRight="5dp"
-                    android:background="@drawable/butonshape2"
-                    android:maxLength="100"
-                    android:text="+ Daftar keinginan"
-                    android:textSize="12sp"
-                    tools:ignore="TouchTargetSizeCheck" />
-
-                <Button
-                    android:id="@+id/tv_pilih"
-                    android:layout_width="77dp"
-                    android:layout_height="40dp"
-                    android:background="@drawable/butonshape2"
-                    android:maxLength="100"
-                    android:text="Pilih"
-                    android:textSize="12sp"
-                    tools:ignore="TouchTargetSizeCheck" />
-            </LinearLayout>
-
-        </LinearLayout>
-    </LinearLayout>
-
-</androidx.cardview.widget.CardView>-->
