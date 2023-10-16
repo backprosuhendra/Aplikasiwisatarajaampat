@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Konfirmasi_Pembayaran">
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Konfirmasi Pembayaran"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terima kasih sudah belanja di toko kami. Setelah melakukan pembayaran, segera lakukan konfirmasi pembayaran dengan mengisi form di bawah,  paling lambat 1 x 24 jam setelah pemesanan." />
+        <LinearLayout
+            android:id="@+id/xdsd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="351dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama lengkap"></TextView>
+
+            <EditText
+                android:id="@+id/edt_masukanusername"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/butonshapeisitext"
+                android:drawableStart="@drawable/baseline_person_24"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/lato"
+                android:hint="masukan nama lengkap"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/textisi"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"></TextView>
+
+            <EditText
+                android:id="@+id/edt_masukanemail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/butonshapeisitext"
+                android:drawableStart="@drawable/iconpesa"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/lato"
+                android:hint="masukan email"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/textisi"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nomor telepon"></TextView>
+
+            <EditText
+                android:id="@+id/edt_nomortelepon"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/butonshapeisitext"
+                android:drawableStart="@drawable/icontelepon"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/lato"
+                android:hint="masukan nomor telepon"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/textisi"
+                tools:ignore="TouchTargetSizeCheck" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nomor boking"></TextView>
+
+            <EditText
+                android:id="@+id/edt_nomorelepon"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/butonshapeisitext"
+                android:drawableStart="@drawable/baseline_numbers_24"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/lato"
+                android:hint="masukan nomor boking"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/textisi"
+                tools:ignore="TouchTargetSizeCheck" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unggah bukti transfer"></TextView>
+            <EditText
+                android:id="@+id/edt_nomorepon"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/butonshapeisitext"
+                android:drawableStart="@drawable/unggahfoto"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/lato"
+                android:hint="Unggah foto"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/textisi"
+                tools:ignore="TouchTargetSizeCheck" />
+            <Button
+                android:layout_marginTop="20dp"
+                style="@android:style/Widget.Button"
+                android:id="@+id/btn_masuk"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_button"
+                android:fontFamily="@font/lato_bold"
+                android:text="Kirim"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                tools:ignore="TouchTargetSizeCheck"></Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
