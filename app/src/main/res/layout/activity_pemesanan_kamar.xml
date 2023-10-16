@@ -375,6 +375,7 @@
                         android:orientation="horizontal">
 
                         <Button
+                            android:textColor="@color/white"
                             android:id="@+id/btnmahsuk"
                             android:layout_width="110dp"
                             android:layout_height="45dp"
@@ -385,6 +386,7 @@
                             android:textSize="20sp"></Button>
 
                         <Button
+                            android:textColor="@color/white"
                             android:id="@+id/btnmasuk"
                             android:layout_width="110dp"
                             android:layout_height="45dp"
