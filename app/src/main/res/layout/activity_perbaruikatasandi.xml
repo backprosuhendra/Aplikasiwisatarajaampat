@@ -149,8 +149,10 @@
             android:orientation="horizontal">
 
             <Button
+                style="@android:style/Widget.Button"
+                android:textColor="@color/white"
                 android:id="@+id/btnperbaruikatasandi"
-                android:layout_width="match_parent"
+                android:layout_width="140dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:background="@drawable/bg_button"

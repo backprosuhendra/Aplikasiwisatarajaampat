@@ -159,6 +159,7 @@
             android:orientation="horizontal">
 
             <Button
+                style="@android:style/Widget.Button"
                 android:id="@+id/btn_masuk"
                 android:layout_width="150dp"
                 android:layout_height="45dp"
@@ -171,6 +172,7 @@
                 tools:ignore="TouchTargetSizeCheck"></Button>
 
             <Button
+                style="@android:style/Widget.Button"
                 android:id="@+id/btn_mendaftar"
                 android:layout_width="150dp"
                 android:layout_height="45dp"
