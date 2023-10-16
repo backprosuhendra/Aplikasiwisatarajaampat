@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".home">
+
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
@@ -16,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></View>
+        app:layout_constraintTop_toTopOf="parent" />
 
             <FrameLayout
                 android:id="@+id/framelayout"
@@ -140,25 +141,24 @@
                 </LinearLayout>
             </FrameLayout>
 
-    <ScrollView
-        android:layout_width="393dp"
-        android:layout_height="413dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="243dp">
+            <ScrollView
+                android:layout_width="393dp"
+                android:layout_height="413dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="243dp">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_example"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:padding="14dp"
-            tools:listitem="@layout/activity_penginapan_item" />
-
-    </ScrollView>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_example"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:padding="14dp"
+                    tools:listitem="@layout/activity_penginapan_item" />
+            </ScrollView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
                     android:background="@color/biru"

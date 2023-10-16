@@ -84,6 +84,8 @@
             app:layout_constraintVertical_bias="0.237" />
 
         <Button
+            style="@android:style/Widget.Button"
+            android:textColor="@color/white"
             android:id="@+id/btnkembalikehome"
             android:layout_width="250dp"
             android:layout_height="45dp"

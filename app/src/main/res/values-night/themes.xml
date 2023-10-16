@@ -1,7 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
      Base application theme.
-    <style name="Base.Theme.Aplikasiwisatarajaampat" parent="Theme.Material3.DayNight.NoActionBar">
-         Customize your dark theme here.
-         <item name="colorPrimary">@color/buttonbiru</item>
+    <style name="Base.Theme.Aplikasiwisatarajaampat" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--         Customize your light theme here.-->
+        <item name="colorPrimary">@color/buttonbiru</item>
+        <item name="colorPrimaryVariant">#FF000000</item>
+        <item name="colorOnPrimary">#FFFFFFFF</item>
+        <item name="colorSecondary">#32BCFE</item>
     </style>
 </resources>

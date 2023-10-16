@@ -8,7 +8,6 @@
     android:importantForAutofill="no"
     tools:context=".onboarding2">
 
-
     <LinearLayout
         android:layout_width="394dp"
         android:layout_height="336dp"
@@ -26,6 +25,7 @@
         tools:ignore="MissingConstraints">
 
         <androidx.cardview.widget.CardView
+
             android:layout_width="300dp"
             android:layout_height="250dp"
             app:cardBackgroundColor="@color/kosoong"
@@ -47,7 +47,8 @@
                     android:padding="5dp"
                     android:text="Bersiaplah untuk perjalanan berikutnya"
                     android:textColor="@color/black"
-                    android:textSize="25dp"></TextView>
+                    android:textSize="25dp"
+                    tools:ignore="HardcodedText" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -58,7 +59,7 @@
                     android:text="Temukan destinasi wisata dan homestay di Raja Ampat yang siap Anda kunjungi"
                     android:textColor="@color/black"
                     android:textSize="15dp"
-                    tools:ignore="TextSizeCheck"></TextView>
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck"/>
 
                 <Button
                     android:id="@+id/btnnext1"
@@ -70,8 +71,7 @@
                     android:fontFamily="@font/lato_bold"
                     android:text="next"
                     android:textColor="@color/white"
-                    android:textSize="20sp"></Button>
-
+                    android:textSize="20sp" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -106,8 +106,6 @@
                 android:layout_marginLeft="5dp"
                 android:background="@drawable/iconnext2"
                 android:gravity="center"></TextView>
-
         </LinearLayout>
-
     </LinearLayout>
 </RelativeLayout>

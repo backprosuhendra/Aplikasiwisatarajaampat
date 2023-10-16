@@ -6,6 +6,6 @@ import android.os.Bundle
 class profil : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profil)
+        setContentView(R.layout.fragment_profil)
     }
 }
