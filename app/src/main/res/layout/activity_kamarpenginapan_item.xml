@@ -61,7 +61,7 @@
                         android:layout_marginTop="0dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="desckripsi ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddkamar"
+                        android:text="desckripsi dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddkamar"
                         android:id="@+id/tv_wisata"
                         android:textSize="15sp"
                         android:fontFamily="@font/lato"/>

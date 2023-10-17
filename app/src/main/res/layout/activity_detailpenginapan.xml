@@ -63,8 +63,8 @@
     </LinearLayout>
 
     <ScrollView
-        android:layout_width="393dp"
-        android:layout_height="413dp"
+        android:layout_width="match_parent"
+        android:layout_height="457dp"
         android:layout_alignParentBottom="true"
         tools:layout_editor_absoluteY="243dp">
 
