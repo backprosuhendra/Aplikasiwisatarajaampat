@@ -415,17 +415,6 @@
                             android:text="Termasuk pajak dan biaya lainnya" />
                     </LinearLayout>
 
-<!--                    <Button
-                        android:id="@+id/btnmahsuk"
-                        android:layout_width="110dp"
-                        android:layout_height="45dp"
-                        android:layout_marginRight="100dp"
-                        android:background="@drawable/butonshape3"
-                        android:fontFamily="@font/lato_bold"
-                        android:text="Rp 600.000"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"></Button>-->
-
                     <Button
                         android:id="@+id/btnmasuk"
                         style="@android:style/Widget.Button"
@@ -436,7 +425,6 @@
                         android:text="Pesan"
                         android:textColor="@color/white"
                         android:textSize="20sp"></Button>
-
                 </LinearLayout>
             </LinearLayout>
 
