@@ -83,9 +83,9 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp">
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -155,10 +155,12 @@
                         android:textColor="@color/black"
                         android:textSize="15dp"
                         tools:ignore="TextSizeCheck"></TextView>
+
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/black"></View>
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -176,10 +178,12 @@
                         android:textColor="@color/black"
                         android:textSize="15dp"
                         tools:ignore="TextSizeCheck"></TextView>
+
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/black"></View>
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -197,6 +201,7 @@
                         android:textColor="@color/black"
                         android:textSize="15dp"
                         tools:ignore="TextSizeCheck"></TextView>
+
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
@@ -219,6 +224,7 @@
                     tools:layout_editor_absoluteY="351dp">
 
                     <TextView
+                        android:layout_marginTop="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/lato_bold"
@@ -325,6 +331,10 @@
                             android:layout_marginLeft="40dp"
                             android:text="Rp 550.000"></TextView>
                     </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black"></View>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -342,7 +352,10 @@
                             android:layout_marginLeft="40dp"
                             android:text="Rp 50.000"></TextView>
                     </LinearLayout>
-
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black"></View>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -362,39 +375,68 @@
                             android:layout_marginLeft="40dp"
                             android:text="Rp 600.000"></TextView>
                     </LinearLayout>
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:layout_marginBottom="5dp"
-                        android:background="@color/black"></View>
+                </LinearLayout>
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="left"
-                        android:orientation="horizontal">
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:background="@drawable/butonshape3"
+                        android:layout_width="200dp"
+                        android:layout_height="45dp"
+                        android:orientation="vertical">
 
-                        <Button
-                            android:textColor="@color/white"
-                            android:id="@+id/btnmahsuk"
-                            android:layout_width="110dp"
-                            android:layout_height="45dp"
-                            android:layout_marginRight="100dp"
-                            android:background="@drawable/bg_button"
-                            android:fontFamily="@font/lato_bold"
-                            android:text="Masuk"
-                            android:textSize="20sp"></Button>
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/biru"
+                            android:fontFamily="@font/lato"
+                            android:text="Rp 600.000" />
 
-                        <Button
-                            android:textColor="@color/white"
-                            android:id="@+id/btnmasuk"
-                            android:layout_width="110dp"
-                            android:layout_height="45dp"
-                            android:background="@drawable/bg_button"
-                            android:fontFamily="@font/lato_bold"
-                            android:text="Pesan"
-                            android:textSize="20sp"></Button>
+                        <TextView
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+
+                            android:text="Termasuk pajak dan biaya lainnya" />
                     </LinearLayout>
+
+<!--                    <Button
+                        android:id="@+id/btnmahsuk"
+                        android:layout_width="110dp"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="100dp"
+                        android:background="@drawable/butonshape3"
+                        android:fontFamily="@font/lato_bold"
+                        android:text="Rp 600.000"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"></Button>-->
+
+                    <Button
+                        android:id="@+id/btnmasuk"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="110dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_button"
+                        android:fontFamily="@font/lato_bold"
+                        android:text="Pesan"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"></Button>
+
                 </LinearLayout>
             </LinearLayout>
 
