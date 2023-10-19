@@ -93,13 +93,13 @@
                             android:layout_width="10dp"
                             android:layout_height="10dp"
                             android:background="@drawable/bintang1"
-                            android:scaleType="fitCenter"></ImageView>
+                            android:scaleType="fitCenter"/>
 
                         <ImageView
                             android:layout_width="10dp"
                             android:layout_height="10dp"
                             android:background="@drawable/bintang1"
-                            android:scaleType="fitCenter"></ImageView>
+                            android:scaleType="fitCenter"/>
 
                         <ImageView
                             android:layout_width="10dp"

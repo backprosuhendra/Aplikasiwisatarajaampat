@@ -46,13 +46,13 @@
             android:name=".Detailpenginapan"
             android:exported="false" />
         <activity
-            android:name=".onboarding3"
+            android:name=".onboarding2"
             android:exported="false" />
         <activity
             android:name=".perbaruikatasandi"
             android:exported="false" />
         <activity
-            android:name=".onboarding2"
+            android:name=".onboarding1"
             android:exported="false" />
         <activity
             android:name=".home"

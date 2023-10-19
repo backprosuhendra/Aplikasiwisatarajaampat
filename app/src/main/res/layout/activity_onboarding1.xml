@@ -4,18 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgonboarding3"
-    tools:context=".onboarding4">
+    android:background="@drawable/bgonboarding1"
+    android:importantForAutofill="no"
+    tools:context=".onboarding1">
 
     <LinearLayout
         android:layout_width="394dp"
-        android:layout_height="340dp"
+        android:layout_height="336dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="-2dp"
-        android:layout_marginBottom="3dp"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="-1dp"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="20dp"
@@ -26,10 +25,10 @@
         tools:ignore="MissingConstraints">
 
         <androidx.cardview.widget.CardView
+
             android:layout_width="300dp"
             android:layout_height="250dp"
             app:cardBackgroundColor="@color/kosoong"
-
             app:cardCornerRadius="20dp">
 
             <LinearLayout
@@ -42,13 +41,14 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:fontFamily="@font/lato_bold"
                     android:gravity="left"
                     android:padding="5dp"
-                    android:text="Kunjungi tempat wisata dan Homestay"
+                    android:text="Bersiaplah untuk perjalanan berikutnya"
                     android:textColor="@color/black"
-                    android:textSize="25dp"></TextView>
+                    android:textSize="25dp"
+                    tools:ignore="HardcodedText" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -56,24 +56,22 @@
                     android:fontFamily="@font/lato"
                     android:gravity="left"
                     android:padding="5dp"
-                    android:text="Temukan destinasi wisata dan Homestaydi Raja Ampat yang siap Anda kunjungi"
+                    android:text="Temukan destinasi wisata dan homestay di Raja Ampat yang siap Anda kunjungi"
                     android:textColor="@color/black"
                     android:textSize="15dp"
-                    tools:ignore="TextSizeCheck"></TextView>
+                    tools:ignore="HardcodedText,RtlHardcoded,SpUsage,TextSizeCheck"/>
 
                 <Button
-                    android:id="@+id/btn_next3"
+                    android:id="@+id/btnnext1"
                     android:layout_width="match_parent"
-                    android:layout_height="45dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="60dp"
                     android:background="@drawable/bg_button"
                     android:fontFamily="@font/lato_bold"
                     android:text="next"
                     android:textColor="@color/white"
-                    android:textSize="20sp"
-                    tools:ignore="TouchTargetSizeCheck"></Button>
-
+                    android:textSize="20sp" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -86,30 +84,28 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/btnnext1"
-                android:layout_width="25dp"
-                android:layout_height="10dp"
-                android:layout_marginLeft="5dp"
-                android:background="@drawable/iconnext2"
-                android:gravity="center"></TextView>
-
-            <TextView
-                android:id="@+id/btnnext2"
-                android:layout_width="25dp"
-                android:layout_height="10dp"
-                android:layout_marginLeft="5dp"
-                android:background="@drawable/iconnext2"
-                android:gravity="center"></TextView>
-
-            <TextView
-                android:id="@+id/btnnext3"
+                android:id="@+id/tv_next1"
                 android:layout_width="25dp"
                 android:layout_height="10dp"
                 android:layout_marginLeft="5dp"
                 android:background="@drawable/iconnext1"
                 android:gravity="center"></TextView>
 
-        </LinearLayout>
+            <TextView
+                android:id="@+id/tv_next2"
+                android:layout_width="25dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/iconnext2"
+                android:gravity="center"></TextView>
 
+            <TextView
+                android:id="@+id/tv_next3"
+                android:layout_width="25dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/iconnext2"
+                android:gravity="center"></TextView>
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
