@@ -14,7 +14,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="300dp"
@@ -24,12 +23,14 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:scaleType="centerCrop"
                     android:alpha="1"
-                    android:src="@drawable/bgonboarding2" />
+                    android:src="@drawable/bgonboarding2"/>
+
                 <LinearLayout
                     android:layout_marginTop="100dp"
                     android:layout_marginLeft="20dp"
@@ -117,7 +118,6 @@
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:fontFamily="@font/lato_bold"
-                    android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Tentang kamar" />
@@ -126,7 +126,6 @@
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:fontFamily="@font/lato_bold"
-                    android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Berada di Pulau Mansuar yang indah, salah satu penginapan murah di Raja Ampat" />
@@ -373,7 +372,6 @@
                 </LinearLayout>
 
                 <Button
-
                     android:id="@+id/btnmasuk"
                     style="@android:style/Widget.Button"
                     android:layout_width="110dp"
@@ -382,7 +380,8 @@
                     android:fontFamily="@font/lato_bold"
                     android:text="Pilih kamar"
                     android:textColor="@color/white"
-                    android:textSize="20sp"></Button>
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck"></Button>
             </LinearLayout>
         </LinearLayout>
         </LinearLayout>

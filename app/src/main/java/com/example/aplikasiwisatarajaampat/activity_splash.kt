@@ -8,13 +8,13 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
-class splash : AppCompatActivity() {
+class activity_splash : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.splash)
+        setContentView(R.layout.activity_splash)
         CoroutineScope(Dispatchers.Main).launch {
             delay(3000)
-            val intent = Intent(this@splash, Detail_kamar::class.java)
+            val intent = Intent(this@activity_splash, Detail_kamar::class.java)
             startActivity(intent)
             finish()
         }

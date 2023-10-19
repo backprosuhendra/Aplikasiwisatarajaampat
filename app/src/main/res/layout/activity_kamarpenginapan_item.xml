@@ -164,10 +164,7 @@
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
-
             </LinearLayout>
-
-
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>

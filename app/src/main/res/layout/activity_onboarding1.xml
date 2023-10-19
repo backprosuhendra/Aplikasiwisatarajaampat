@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bgonboarding1"
     android:importantForAutofill="no"
-    tools:context=".onboarding1">
+    tools:context=".activity_onboarding1">
 
     <LinearLayout
         android:layout_width="394dp"

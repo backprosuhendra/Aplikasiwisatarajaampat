@@ -6,6 +6,6 @@ import android.os.Bundle
 class berhasilmembuatakun : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_berhasilmembuatakun)
+        setContentView(R.layout.activity_berhasil_membuat_akun)
     }
 }

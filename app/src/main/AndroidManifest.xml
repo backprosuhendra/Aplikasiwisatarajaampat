@@ -34,7 +34,7 @@
             android:name=".Pemesanan_kamar"
             android:exported="false" />
         <activity
-            android:name=".splash"
+            android:name=".activity_splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,13 +46,13 @@
             android:name=".Detailpenginapan"
             android:exported="false" />
         <activity
-            android:name=".onboarding2"
+            android:name=".activity_onboarding2"
             android:exported="false" />
         <activity
             android:name=".perbaruikatasandi"
             android:exported="false" />
         <activity
-            android:name=".onboarding1"
+            android:name=".activity_onboarding1"
             android:exported="false" />
         <activity
             android:name=".home"
@@ -76,7 +76,7 @@
             android:name=".lupakatasandi"
             android:exported="false" />
         <activity
-            android:name=".buatakun"
+            android:name=".activity_buat_akun"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

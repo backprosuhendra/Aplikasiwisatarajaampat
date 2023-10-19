@@ -18,7 +18,6 @@
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:id="@+id/icon"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginBottom="20dp"
@@ -32,7 +31,6 @@
             app:layout_constraintVertical_bias="0.72" />
 
         <TextView
-            android:id="@+id/tv1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -48,7 +46,6 @@
             app:layout_constraintVertical_bias="0.237" />
 
         <TextView
-            android:id="@+id/tv2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -67,7 +64,7 @@
         <Button
             style="@android:style/Widget.Button"
             android:textColor="@color/white"
-            android:id="@+id/btnmasuk"
+            android:id="@+id/btn_kembali_masuk"
             android:layout_width="200dp"
             android:layout_height="45dp"
             android:layout_gravity="center"
@@ -76,6 +73,6 @@
             android:fontFamily="@font/lato_bold"
             android:text="Kembali untuk masuk"
             android:textSize="15sp"
-            tools:ignore="TouchTargetSizeCheck"></Button>
+            tools:ignore="TouchTargetSizeCheck"/>
     </LinearLayout>
 </RelativeLayout>

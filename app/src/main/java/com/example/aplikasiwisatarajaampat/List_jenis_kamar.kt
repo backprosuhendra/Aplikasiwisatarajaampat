@@ -6,6 +6,6 @@ import android.os.Bundle
 class List_jenis_kamar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_list_jenis_kamar)
+        setContentView(R.layout.activity_rv_list_jenis_kamar)
     }
 }

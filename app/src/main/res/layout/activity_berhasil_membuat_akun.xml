@@ -21,7 +21,6 @@
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:id="@+id/icon"
             android:layout_width="141dp"
             android:layout_height="116dp"
             android:background="@drawable/loogotravel"
@@ -35,7 +34,6 @@
             app:layout_constraintVertical_bias="0.72" />
 
         <TextView
-            android:id="@+id/tv1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -51,7 +49,6 @@
             app:layout_constraintVertical_bias="0.237" />
 
         <TextView
-            android:id="@+id/tv2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -67,7 +64,6 @@
             app:layout_constraintVertical_bias="0.237" />
 
         <TextView
-            android:id="@+id/tv3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/lato"
@@ -86,7 +82,7 @@
         <Button
             style="@android:style/Widget.Button"
             android:textColor="@color/white"
-            android:id="@+id/btnkembalikehome"
+            android:id="@+id/btn_kembali_ke_home"
             android:layout_width="250dp"
             android:layout_height="45dp"
             android:layout_gravity="center"

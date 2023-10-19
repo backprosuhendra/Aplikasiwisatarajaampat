@@ -6,6 +6,6 @@ import android.os.Bundle
 class lupakatasandi : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_lupakatasandi)
+        setContentView(R.layout.activity_lupa_katasandi)
     }
 }

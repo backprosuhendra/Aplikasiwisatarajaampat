@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".buatakun"
+    tools:context=".activity_buat_akun"
     android:background="@color/white">
 
     <androidx.appcompat.widget.Toolbar
@@ -36,7 +36,6 @@
 
         <TextView
             android:textColor="@color/black"
-            android:id="@+id/tvusername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
@@ -63,7 +62,6 @@
 
         <TextView
             android:textColor="@color/black"
-            android:id="@+id/tvnomortelepon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
@@ -87,12 +85,10 @@
             android:paddingLeft="20dp"
             android:shadowColor="@color/black"
             android:textColor="@color/black"
-            android:textColorHint="@color/textisi"
-            tools:ignore="TouchTargetSizeCheck" />
+            android:textColorHint="@color/textisi"/>
 
         <TextView
             android:textColor="@color/black"
-            android:id="@+id/tvemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
@@ -120,7 +116,6 @@
 
         <TextView
             android:textColor="@color/black"
-            android:id="@+id/tvkatasandi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
@@ -131,7 +126,7 @@
             tools:ignore="TextSizeCheck" />
 
         <EditText
-            android:id="@+id/edt_masukansandi"
+            android:id="@+id/edt_masukan_kata_sandi"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:background="@drawable/butonshapeisitext"
@@ -169,7 +164,7 @@
                 android:text="Masuk"
                 android:textColor="@color/white"
                 android:textSize="15sp"
-                tools:ignore="TouchTargetSizeCheck"></Button>
+                tools:ignore="TouchTargetSizeCheck"/>
 
             <Button
                 style="@android:style/Widget.Button"
@@ -183,7 +178,7 @@
                 android:text="Mendaftar"
                 android:textColor="@color/white"
                 android:textSize="15dp"
-                tools:ignore="TouchTargetSizeCheck"></Button>
+                tools:ignore="TouchTargetSizeCheck"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"

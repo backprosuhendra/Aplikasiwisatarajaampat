@@ -26,7 +26,6 @@
 
         <TextView
             android:textColor="@color/black"
-            android:id="@+id/tvlupasandi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Buat kata sandi baru"
@@ -53,7 +52,6 @@
             app:layout_constraintVertical_bias="0.292" />
 
         <TextView
-            android:id="@+id/tvusername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left"
@@ -69,7 +67,7 @@
             tools:ignore="TextSizeCheck" />
 
         <EditText
-            android:id="@+id/edt_masukanusername"
+            android:id="@+id/edt_masukan_username"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:background="@drawable/butonshapeisitext"
@@ -89,7 +87,6 @@
             app:layout_constraintVertical_bias="0.219" />
 
         <TextView
-            android:id="@+id/tvkonfirmasikatasandibaru"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left"
@@ -105,7 +102,7 @@
             tools:ignore="TextSizeCheck" />
 
         <EditText
-            android:id="@+id/edt_konfirmasikatasandibaru"
+            android:id="@+id/edt_konfirmasi_kata_sandi_baru"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:background="@drawable/butonshapeisitext"
@@ -124,7 +121,6 @@
             app:layout_constraintVertical_bias="0.219" />
 
         <TextView
-            android:id="@+id/tvperingatan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Kata sandi Anda setidaknya harus mengandung karakter atas"
@@ -137,10 +133,9 @@
             app:layout_constraintVertical_bias="0.162"
             tools:ignore="TextSizeCheck" />
 
-
         <Button
             style="@android:style/Widget.Button"
-            android:id="@+id/btnmasuk"
+            android:id="@+id/btn_simpan"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -149,7 +144,7 @@
             android:fontFamily="@font/lato_bold"
             android:text="Simpan"
             android:textColor="@color/white"
-            android:textSize="20sp"></Button>
+            android:textSize="20sp"/>
 
     </LinearLayout>
 
