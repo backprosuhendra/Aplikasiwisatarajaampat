@@ -96,19 +96,6 @@
                     android:text="Penginapan"
                     android:textColor="@color/white" />
 
-                <TextView
-                    android:id="@+id/tvspotwisata"
-                    android:layout_width="150dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
-                    android:background="@drawable/butonshape2"
-                    android:drawableStart="@drawable/smss"
-                    android:fontFamily="@font/lato_bold"
-                    android:gravity="center"
-                    android:padding="10dp"
-                    android:text="Spot wisata"
-                    android:textColor="@color/white" />
             </LinearLayout>
 
 
