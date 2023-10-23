@@ -249,7 +249,7 @@
                         android:fontFamily="@font/lato"
                         android:hint="masukan nama lengkap"
                         android:inputType="textPersonName"
-                        android:paddingLeft="20dp"
+                        android:paddingLeft="10dp"
                         android:textColor="@color/black"
                         android:textColorHint="@color/textisi"
                         tools:ignore="TouchTargetSizeCheck" />
@@ -269,7 +269,7 @@
                         android:fontFamily="@font/lato"
                         android:hint="masukan email"
                         android:inputType="textPersonName"
-                        android:paddingLeft="20dp"
+                        android:paddingLeft="10dp"
                         android:textColor="@color/black"
                         android:textColorHint="@color/textisi"
                         tools:ignore="TouchTargetSizeCheck" />
@@ -277,19 +277,19 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Nomor telepon"></TextView>
+                        android:text="Nomor telepon"/>
 
                     <EditText
                         android:id="@+id/edt_nomortelepon"
                         android:layout_width="match_parent"
                         android:layout_height="45dp"
                         android:background="@drawable/butonshapeisitext"
-                        android:drawableStart="@drawable/baseline_person_24"
+                        android:drawableStart="@drawable/icontelepon"
                         android:drawablePadding="5dp"
                         android:fontFamily="@font/lato"
                         android:hint="masukan nomor telepon"
                         android:inputType="textPersonName"
-                        android:paddingLeft="20dp"
+                        android:paddingLeft="10dp"
                         android:textColor="@color/black"
                         android:textColorHint="@color/textisi"
                         tools:ignore="TouchTargetSizeCheck" />
@@ -313,7 +313,7 @@
                         android:fontFamily="@font/lato_bold"
                         android:text="Detail Harga"
                         android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
+                        android:textSize="20dp"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -323,18 +323,18 @@
                         <TextView
                             android:layout_width="163dp"
                             android:layout_height="wrap_content"
-                            android:text="kamar bugdet double"></TextView>
+                            android:text="kamar bugdet double"/>
 
                         <TextView
                             android:layout_width="152dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="40dp"
-                            android:text="Rp 550.000"></TextView>
+                            android:text="Rp 550.000"/>
                     </LinearLayout>
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="@color/black"></View>
+                        android:background="@color/black"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -344,18 +344,18 @@
                         <TextView
                             android:layout_width="163dp"
                             android:layout_height="wrap_content"
-                            android:text="Pajak dan biaya"></TextView>
+                            android:text="Pajak dan biaya"/>
 
                         <TextView
                             android:layout_width="152dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="40dp"
-                            android:text="Rp 50.000"></TextView>
+                            android:text="Rp 50.000"/>
                     </LinearLayout>
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="@color/black"></View>
+                        android:background="@color/black"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -367,13 +367,13 @@
                             android:fontFamily="@font/lato_bold"
                             android:text="Total"
                             android:textColor="@color/black"
-                            android:textSize="25dp"></TextView>
+                            android:textSize="25dp"/>
 
                         <TextView
                             android:layout_width="152dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="40dp"
-                            android:text="Rp 600.000"></TextView>
+                            android:text="Rp 600.000"/>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -411,7 +411,6 @@
                             android:id="@+id/textView16"
                             android:layout_width="match_parent"
                             android:layout_height="15dp"
-
                             android:text="Termasuk pajak dan biaya lainnya" />
                     </LinearLayout>
 
@@ -424,10 +423,9 @@
                         android:fontFamily="@font/lato_bold"
                         android:text="Pesan"
                         android:textColor="@color/white"
-                        android:textSize="20sp"></Button>
+                        android:textSize="20sp"/>
                 </LinearLayout>
             </LinearLayout>
-
         </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
