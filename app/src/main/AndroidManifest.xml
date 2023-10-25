@@ -58,7 +58,7 @@
             android:name=".activity_onboarding1"
             android:exported="false" />
         <activity
-            android:name=".home"
+            android:name=".lupakatasandi"
             android:exported="false" />
         <activity
             android:name=".profil"
@@ -76,13 +76,10 @@
             android:name=".konfirmasiverifikasiemail"
             android:exported="false" />
         <activity
-            android:name=".lupakatasandi"
-            android:exported="false" />
-        <activity
             android:name=".activity_buat_akun"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity_Halaman_Login"
             android:exported="false" />
 
         <meta-data

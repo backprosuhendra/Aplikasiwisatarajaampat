@@ -14,7 +14,7 @@
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="260dp"
         android:background="@drawable/atasprofil"
         android:outlineAmbientShadowColor="@color/black"
         android:outlineSpotShadowColor="@color/black"
@@ -35,18 +35,18 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
 
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:orientation="horizontal"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="20dp"
+                android:orientation="horizontal"
                 tools:ignore="MissingConstraints">
 
                 <ImageView
@@ -88,7 +88,7 @@
                 <TextView
                     android:id="@+id/tvpenginapan"
                     android:layout_width="150dp"
-                    android:layout_height="40dp"
+                    android:layout_height="44dp"
                     android:layout_gravity="center"
                     android:background="@drawable/butonshape2"
                     android:drawableStart="@drawable/smss"
@@ -138,33 +138,45 @@
                 style="@android:style/Widget.Button"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
-                android:layout_marginRight="20dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:background="@drawable/butonshape2"
                 android:fontFamily="@font/lato_bold"
                 android:text="Cari"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/lato"
+                android:text="Penginapan Populer"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black" />
         </LinearLayout>
     </FrameLayout>
 
         <ScrollView
-            android:layout_width="394dp"
-            android:layout_height="510dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="305dp">
+            tools:layout_editor_absoluteY="361dp">
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_example"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:padding="14dp"
                 tools:listitem="@layout/activity_penginapan_item" />
         </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
