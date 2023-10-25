@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="cari"
-        android:id="@+id/Cari"
+    <item android:title="@string/Cari"
+        android:id="@+id/bottom_cari"
         android:icon="@drawable/baseline_search_24"/>
-    <item android:title="favorit"
-        android:id="@+id/favorit"
+    <item android:title="@string/Favorit"
+        android:id="@+id/bottom_favorit"
         android:icon="@drawable/favoriticon"/>
-    <item android:title="pemesanan"
-        android:id="@+id/pemesanan"
+    <item android:title="@string/Pemesanan"
+        android:id="@+id/bottom_pemesanan"
         android:icon="@drawable/pemesanan"/>
-    <item android:title="profil"
-        android:id="@+id/profil"
+    <item android:title="@string/Profil"
+        android:id="@+id/bottom_profil"
         android:icon="@drawable/profilicon"/>
 </menu>
