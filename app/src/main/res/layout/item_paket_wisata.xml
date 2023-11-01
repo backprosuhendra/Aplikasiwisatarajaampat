@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Item_Paket_Wisata">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:elevation="100dp"
+                    android:id="@+id/iv_wisataalam"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_bold"
+                        android:textColor="@color/black"
+                        android:text="nama paket"
+                        android:id="@+id/tv_nama_paket_wisata"
+                        android:textSize="15sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_margin="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="desckripsi paket:                                                          1.                                                                     2."
+                        android:id="@+id/tv_deskripsi_pulau_wisataalam"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/lato"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="10dp"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:background="@drawable/bintang1"
+                            android:scaleType="fitCenter"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:background="@drawable/bintang1"
+                            android:scaleType="fitCenter"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:background="@drawable/bintang1"
+                            android:scaleType="fitCenter"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:background="@drawable/bintang2"
+                            android:scaleType="fitCenter"></ImageView>
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:background="@drawable/bintang2"
+                            android:scaleType="fitCenter"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:fontFamily="@font/lato"
+                            android:text="100 reviews"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            tools:ignore="TextSizeCheck" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:textSize="15sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp">
+
+                        <Button
+                            style="@android:style/Widget.Button"
+                            android:textColor="@color/white"
+                            android:id="@+id/button_pesan_paketwisata"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginRight="5dp"
+                            android:text="Pesan"
+                            android:background="@drawable/butonshape2"
+                            android:textSize="15sp"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <Button
+                            style="@android:style/Widget.Button"
+                            android:textColor="@color/white"
+                            android:id="@+id/button_detail_paketwisata"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="5dp"
+                            android:text="Detail"
+                            android:background="@drawable/butonshape2"
+                            android:textSize="15sp"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="end"
+                            android:orientation="horizontal">
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

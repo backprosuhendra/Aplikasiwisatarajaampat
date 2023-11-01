@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Aplikasiwisatarajaampat"
         tools:targetApi="31">
         <activity
+            android:name=".Item_Festival"
+            android:exported="false" />
+        <activity
+            android:name=".Item_Paket_Wisata"
+            android:exported="false" />
+        <activity
+            android:name=".Item_Wisata_Religi"
+            android:exported="false" />
+        <activity
+            android:name=".Item_Wisata_Budaya"
+            android:exported="false" />
+        <activity
+            android:name=".Item_Wisata_Alam"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
