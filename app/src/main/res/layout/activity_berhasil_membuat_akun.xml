@@ -21,9 +21,9 @@
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:layout_width="141dp"
-            android:layout_height="116dp"
-            android:background="@drawable/loogotravel"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/wondama"
             android:baselineAlignBottom="true"
             android:scaleType="center"
             app:layout_constraintBottom_toBottomOf="parent"

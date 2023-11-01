@@ -11,4 +11,8 @@
     <string name="Pemesanan">pemesanan</string>
     <string name="Favorit">favorit</string>
     <string name="Cari">cari</string>
+    <string name="home">Home</string>
+    <string name="transportasi">Transportasi</string>
+    <string name="hotel">Hotel</string>
+    <string name="maps">Maps</string>
 </resources>

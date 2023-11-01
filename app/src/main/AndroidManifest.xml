@@ -61,7 +61,7 @@
             android:name=".lupakatasandi"
             android:exported="false" />
         <activity
-            android:name=".profil"
+            android:name=".profilll"
             android:exported="false" />
         <activity
             android:name=".berhasilmembuatakun"

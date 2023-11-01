@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.aplikasiwisatarajaampat.databinding.CostumtoolbarBinding
 
 class FavoritFragment : Fragment() {
 
@@ -14,6 +13,6 @@ class FavoritFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_favorit, container, false)
+        return inflater.inflate(R.layout.fragment_ftransportasi, container, false)
     }
 }

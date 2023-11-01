@@ -17,10 +17,10 @@ class MainActivity2 : AppCompatActivity() {
 
         binding.bottomNavigationView.setOnItemReselectedListener {
             when(it.itemId){
-                R.id.bottom_cari ->replaceFragment(HomeFragment())
-                R.id.bottom_favorit ->replaceFragment(FavoritFragment())
-                R.id.bottom_pemesanan ->replaceFragment(PemesananFragment())
-                R.id.bottom_profil ->replaceFragment(ProfilFragment())
+                R.id.bottom_home ->replaceFragment(HomeFragment())
+                R.id.bottom_transportasi ->replaceFragment(FavoritFragment())
+                R.id.bottom_hotel ->replaceFragment(HotelFragment())
+                R.id.bottom_maps ->replaceFragment(MapsFragment())
 
                 else ->{
 

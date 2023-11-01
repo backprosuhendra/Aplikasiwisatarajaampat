@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="@string/Cari"
-        android:id="@+id/bottom_cari"
-        android:icon="@drawable/baseline_search_24"/>
-    <item android:title="@string/Favorit"
-        android:id="@+id/bottom_favorit"
-        android:icon="@drawable/favoriticon"/>
-    <item android:title="@string/Pemesanan"
-        android:id="@+id/bottom_pemesanan"
-        android:icon="@drawable/pemesanan"/>
-    <item android:title="@string/Profil"
-        android:id="@+id/bottom_profil"
-        android:icon="@drawable/profilicon"/>
+    <item android:title="@string/home"
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/baseline_home_"/>
+    <item android:title="@string/transportasi"
+        android:id="@+id/bottom_transportasi"
+        android:icon="@drawable/baseline_transportasi"/>
+    <item android:title="@string/hotel"
+        android:id="@+id/bottom_hotel"
+        android:icon="@drawable/baseline_apartment"/>
+    <item android:title="@string/maps"
+        android:id="@+id/bottom_maps"
+        android:icon="@drawable/baseline_map"/>
 </menu>

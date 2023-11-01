@@ -14,7 +14,7 @@
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
-        android:layout_height="260dp"
+        android:layout_height="270dp"
         android:background="@drawable/atasprofil"
         android:outlineAmbientShadowColor="@color/black"
         android:outlineSpotShadowColor="@color/black"
@@ -41,8 +41,9 @@
             tools:ignore="MissingConstraints">
 
             <LinearLayout
+                android:gravity="center_vertical"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="30dp"
                 android:layout_marginRight="20dp"
@@ -51,42 +52,51 @@
 
                 <ImageView
                     android:id="@+id/lip"
-                    android:layout_width="49dp"
-                    android:layout_height="107dp"
+                    android:layout_width="50dp"
+                    android:layout_height="48dp"
                     app:srcCompat="@drawable/profile" />
 
-                <LinearLayout
-                    android:layout_width="311dp"
-                    android:layout_height="98dp"
-                    android:orientation="vertical"
-                    android:padding="20dp">
+                <TextView
+                    android:id="@+id/nama"
+                    android:layout_width="249dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="Hallo, Elfan 👋"
+                    android:textColor="@color/white" />
 
-                    <TextView
-                        android:id="@+id/nama"
-                        android:layout_width="match_parent"
-                        android:layout_height="20dp"
-                        android:fontFamily="@font/lato_bold"
-                        android:text="Hallo, Elfan 👋"
-                        android:textColor="@color/white" />
-
-                    <TextView
-                        android:id="@+id/email"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/lato"
-                        android:text="Ayo temukan Homestay yang nyaman dan tempat wisata di Raja Ampat."
-                        android:textColor="@color/white" />
-                </LinearLayout>
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/vx"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    app:srcCompat="@drawable/baseline_notifications" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ayo temukan Homestay yang nyaman di tempat wisata di wondama"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_marginBottom="5dp"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/tvpenginapan"
+                    android:id="@+id/Tv_wisataAlam"
                     android:layout_width="150dp"
                     android:layout_height="44dp"
                     android:layout_gravity="center"
@@ -95,69 +105,70 @@
                     android:fontFamily="@font/lato_bold"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="Penginapan"
+                    android:text="Wisata Alam"
+                    android:layout_marginRight="5dp"
                     android:textColor="@color/white" />
 
+                <TextView
+                    android:id="@+id/Tv_wisataBudaya"
+                    android:layout_width="150dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/butonshape2"
+                    android:drawableStart="@drawable/smss"
+                    android:fontFamily="@font/lato_bold"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Wisata Budaya"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Tv_PaketWisata"
+                    android:layout_width="150dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/butonshape2"
+                    android:drawableStart="@drawable/smss"
+                    android:fontFamily="@font/lato_bold"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Paket Wisata"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/Tv_wisataReligi"
+                    android:layout_width="150dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/butonshape2"
+                    android:drawableStart="@drawable/smss"
+                    android:fontFamily="@font/lato_bold"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Wisata Religi"
+                    android:textColor="@color/white" />
             </LinearLayout>
 
-
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="20dp"
-                android:fontFamily="@font/lato"
-                android:text="Tanggal"
-                android:textColor="@color/black" />
-
-            <TextView
-                android:id="@+id/edt_masukansandi"
-                android:layout_width="match_parent"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/butonshapeisitext"
-                android:drawableStart="@drawable/baseline_calendar_month_24"
-                android:drawablePadding="5dp"
-                android:fontFamily="@font/lato"
-                android:gravity="center_vertical"
-                android:hint="Pilih tanggal"
-                android:paddingLeft="10dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/biru"
-                tools:ignore="TouchTargetSizeCheck" />
-
-
-            <Button
-                android:id="@+id/btn_car9"
-                style="@android:style/Widget.Button"
-                android:layout_width="match_parent"
-                android:layout_height="45dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:background="@drawable/butonshape2"
-                android:fontFamily="@font/lato_bold"
-                android:text="Cari"
-                android:textColor="@color/white"
-                android:textSize="15sp"
-                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
 
             <TextView
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginRight="20dp"
                 android:fontFamily="@font/lato"
-                android:text="Penginapan Populer"
+                android:text="Festival"
                 android:textStyle="bold"
-                android:textSize="15dp"
+                android:textSize="20dp"
                 android:textColor="@color/black" />
         </LinearLayout>
     </FrameLayout>
@@ -171,13 +182,13 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="361dp">
+            tools:layout_editor_absoluteY="314dp">
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_example"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                tools:listitem="@layout/activity_penginapan_item" />
+                tools:listitem="@layout/item_penginapan" />
         </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
