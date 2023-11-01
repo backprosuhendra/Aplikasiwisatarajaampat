@@ -21,13 +21,13 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Rv_Paket_Wisata"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar2"
-        tools:listitem="@layout/item_wisata_alam" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
