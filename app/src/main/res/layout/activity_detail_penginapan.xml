@@ -45,19 +45,6 @@
                     android:textColor="@color/white"
                     android:textSize="15dp" />
 
-                <TextView
-                    android:layout_marginTop="150dp"
-                    android:id="@+id/tvpenginapan"
-                    android:layout_width="120dp"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/butonshape3"
-                    android:drawableStart="@drawable/bed"
-                    android:fontFamily="@font/lato_bold"
-                    android:drawablePadding="5dp"
-                    android:padding="10dp"
-                    android:paddingLeft="20dp"
-                    android:text="Pilih kamar"
-                    android:textColor="@color/biru" />
             </LinearLayout>
         </FrameLayout>
     </LinearLayout>
@@ -73,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:padding="14dp"
-            tools:listitem="@layout/item_penginapan" />
+            tools:listitem="@layout/item_hotel" />
 
     </ScrollView>
 </RelativeLayout>

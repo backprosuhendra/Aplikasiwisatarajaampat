@@ -3,9 +3,9 @@ package com.example.aplikasiwisatarajaampat
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Detail_kamar : AppCompatActivity() {
+class Rv_Wisata_Alam : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.detail_kamar_hotel)
+        setContentView(R.layout.rv_wisata_alam)
     }
 }

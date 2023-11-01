@@ -98,10 +98,10 @@
                 <TextView
                     android:id="@+id/Tv_wisataAlam"
                     android:layout_width="150dp"
-                    android:layout_height="44dp"
+                    android:layout_height="45dp"
                     android:layout_gravity="center"
                     android:background="@drawable/butonshape2"
-                    android:drawableStart="@drawable/smss"
+                    android:drawableStart="@drawable/baseline_terrain"
                     android:fontFamily="@font/lato_bold"
                     android:gravity="center"
                     android:padding="10dp"
@@ -112,10 +112,9 @@
                 <TextView
                     android:id="@+id/Tv_wisataBudaya"
                     android:layout_width="150dp"
-                    android:layout_height="44dp"
-                    android:layout_gravity="center"
+                    android:layout_height="45dp"
                     android:background="@drawable/butonshape2"
-                    android:drawableStart="@drawable/smss"
+                    android:drawableStart="@drawable/baseline_theater_comedy_24"
                     android:fontFamily="@font/lato_bold"
                     android:gravity="center"
                     android:padding="10dp"
@@ -131,10 +130,9 @@
                 <TextView
                     android:id="@+id/Tv_PaketWisata"
                     android:layout_width="150dp"
-                    android:layout_height="44dp"
-                    android:layout_gravity="center"
+                    android:layout_height="45dp"
                     android:background="@drawable/butonshape2"
-                    android:drawableStart="@drawable/smss"
+                    android:drawableStart="@drawable/baseline_travel_explore_24"
                     android:fontFamily="@font/lato_bold"
                     android:gravity="center"
                     android:padding="10dp"
@@ -148,7 +146,7 @@
                     android:layout_height="44dp"
                     android:layout_gravity="center"
                     android:background="@drawable/butonshape2"
-                    android:drawableStart="@drawable/smss"
+                    android:drawableStart="@drawable/baseline_self_improvement"
                     android:fontFamily="@font/lato_bold"
                     android:gravity="center"
                     android:padding="10dp"
@@ -188,7 +186,7 @@
                 android:id="@+id/rv_example"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                tools:listitem="@layout/item_penginapan" />
+                tools:listitem="@layout/item_festival" />
         </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
