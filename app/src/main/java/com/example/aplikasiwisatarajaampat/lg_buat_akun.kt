@@ -3,9 +3,9 @@ package com.example.aplikasiwisatarajaampat
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class konfirmasiverifikasiemail : AppCompatActivity() {
+class lg_buat_akun : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_konfirmasi_verifikasi_email)
+        setContentView(R.layout.lg_buat_akun)
     }
 }

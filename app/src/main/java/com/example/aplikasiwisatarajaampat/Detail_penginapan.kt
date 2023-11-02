@@ -3,9 +3,9 @@ package com.example.aplikasiwisatarajaampat
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class activity_Halaman_Login : AppCompatActivity() {
+class Detail_penginapan : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_halaman_login)
+        setContentView(R.layout.detail_penginapan)
     }
 }

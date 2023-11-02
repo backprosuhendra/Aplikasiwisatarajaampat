@@ -94,16 +94,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Detailpenginapan"
+            android:name=".Detail_penginapan"
             android:exported="false" />
         <activity
-            android:name=".activity_onboarding2"
+            android:name=".onboarding_2"
             android:exported="false" />
         <activity
             android:name=".perbaruikatasandi"
             android:exported="false" />
         <activity
-            android:name=".activity_onboarding1"
+            android:name=".onboarding_1"
             android:exported="false" />
         <activity
             android:name=".lupakatasandi"
@@ -121,13 +121,13 @@
             android:name=".buatkatasandibaru"
             android:exported="false" />
         <activity
-            android:name=".konfirmasiverifikasiemail"
+            android:name=".lg_konfirmasi_verifikasi_email"
             android:exported="false" />
         <activity
-            android:name=".activity_buat_akun"
+            android:name=".lg_buat_akun"
             android:exported="false" />
         <activity
-            android:name=".activity_Halaman_Login"
+            android:name=".lg_Halaman_Login"
             android:exported="false" />
 
         <meta-data

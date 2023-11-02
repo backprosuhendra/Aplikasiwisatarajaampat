@@ -3,9 +3,9 @@ package com.example.aplikasiwisatarajaampat
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class activity_onboarding1 : AppCompatActivity() {
+class lg_konfirmasi_verifikasi_email : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_onboarding1)
+        setContentView(R.layout.lg_konfirmasi_verifikasi_email)
     }
 }

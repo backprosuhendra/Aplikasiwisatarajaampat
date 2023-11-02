@@ -6,6 +6,6 @@ import android.os.Bundle
 class Detail_Wisata_Alam : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.wisata_alam)
+        setContentView(R.layout.detail_wisata_alam)
     }
 }

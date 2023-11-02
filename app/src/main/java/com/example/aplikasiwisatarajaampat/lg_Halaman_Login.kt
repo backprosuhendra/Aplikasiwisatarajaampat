@@ -2,11 +2,10 @@ package com.example.aplikasiwisatarajaampat
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.aplikasiwisatarajaampat.R.layout.fragment_maps
 
-class profilll : AppCompatActivity() {
+class lg_Halaman_Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(fragment_maps)
+        setContentView(R.layout.lg_halaman_login)
     }
 }
